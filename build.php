@@ -6,7 +6,7 @@ const INSTALLER_VERSION = "1";
 $response = file_get_contents("https://connect.advancedcustomfields.com/v2/plugins/get-info?p=pro");
 $json = json_decode($response);
 
-$packages = [];
+$data = [];
 $versions = [];
 foreach ($json->tags as $tag) {
     $versions[$tag] = [
@@ -38,8 +38,10 @@ foreach ($json->tags as $tag) {
         ]
     ];
 }
-$packages["advanced-custom-fields/advanced-custom-fields-pro"] = (object)$versions;
-$output = json_encode($packages, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES);
+$data['packages'] = (object)[
+    "advanced-custom-fields/advanced-custom-fields-pro" => (object)$versions
+];
+$output = json_encode((object)$data, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES);
 $outputDir = __DIR__."/docs/v".INSTALLER_VERSION;
 if (!is_dir($outputDir)) {
     mkdir($outputDir);
