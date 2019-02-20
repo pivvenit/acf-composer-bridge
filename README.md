@@ -39,4 +39,4 @@ In order to append this license key to the files, [https://github.com/PhilippBas
 This installer detects that you want to install advanced custom fields, and then appends the provided the private key (via environment variable) to the actual download URL on ACF's servers (so the key is never send to this composer repository).
 
 ## Available versions
-See [https://pivvenit.github.io/acf-composer-bridge/v1/packages.json](https://pivvenit.github.io/acf-composer-bridge/v1/)
+See [https://pivvenit.github.io/acf-composer-bridge/v1/packages.json](https://pivvenit.github.io/acf-composer-bridge/v1/packages.json)
