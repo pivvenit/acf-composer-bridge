@@ -28,10 +28,14 @@ steps:
 - script: php build.php
   displayName: 'Update repository'
 - bash: |
+    git checkout master
+    git status
     if [[ -n $(git status -s) ]]
     then
       git add -A
       git commit -m "***NO_CI*** Update packages"
       git push
+    else
+      echo "No changes in the repository"
     fi
   displayName: "Deploy"
