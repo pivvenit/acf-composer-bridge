@@ -13,6 +13,9 @@ variables:
   phpVersion: 7.2
 
 steps:
+- checkout: self
+  persistCredentials: true
+  clean: true
 - script: |
     sudo update-alternatives --set php /usr/bin/php$(phpVersion)
     sudo update-alternatives --set phar /usr/bin/phar$(phpVersion)
@@ -24,3 +27,11 @@ steps:
 
 - script: php build.php
   displayName: 'Update repository'
+- bash: |
+    if [[ -n $(git status -s) ]]
+    then
+      git add -A
+      git commit -m "***NO_CI*** Update packages"
+      git push
+    fi
+  displayName: "Deploy"
