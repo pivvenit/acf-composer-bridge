@@ -28,6 +28,8 @@ steps:
 - script: php build.php
   displayName: 'Update repository'
 - bash: |
+    git config user.email "azurepipelines@pivvenit.net"
+    git config user.name "Azure Pipelines CI"
     git checkout master
     git status
     if [[ -n $(git status -s) ]]
