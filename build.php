@@ -2,11 +2,11 @@
 
 const INSTALLER_VERSION = "1";
 
-function createPackage($tag, $keywords) {
+function createPackage($tag, $keywords, $alias = null) {
     return [
         "name" => "advanced-custom-fields/advanced-custom-fields-pro",
         "description" => "Advanced Custom Fields PRO",
-        "version" => $tag,
+        "version" => $alias ?? $tag,
         "type" => "wpackagist-plugin",
         "license" => "GPL-2.0-or-later",
         "authors" => [
@@ -39,9 +39,9 @@ $json = json_decode($response);
 
 $data = [];
 $versions = [];
-    $versions['dev-master'] = createPackage($json->version, $json->tagged);
-    $versions['latest'] = createPackage($json->version, $json->tagged);
-    $versions[$json->version] = createPackage($json->version, $json->tagged);
+$versions['dev-master'] = createPackage($json->version, $json->tagged,'dev-master');
+$versions['latest'] = createPackage($json->version, $json->tagged, 'latest');
+$versions[$json->version] = createPackage($json->version, $json->tagged);
 foreach ($json->tags as $tag) {
     $versions[$tag] = createPackage($tag, $json->tagged);
 }
