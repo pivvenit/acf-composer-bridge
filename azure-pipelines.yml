@@ -36,7 +36,7 @@ steps:
       git checkout -b build/$(Build.BuildId)
       git add -A
       git commit -m "***NO_CI*** Update packages"
-      git push
+      git push --set-upstream origin build/$(Build.BuildId)
     else
       echo "No changes in the repository"
     fi
