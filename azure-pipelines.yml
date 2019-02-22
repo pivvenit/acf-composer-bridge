@@ -30,10 +30,10 @@ steps:
 - bash: |
     git config user.email "azurepipelines@pivvenit.net"
     git config user.name "Azure Pipelines CI"
-    git checkout master
     git status
     if [[ -n $(git status -s) ]]
     then
+      git checkout -b build/$(Build.BuildId)
       git add -A
       git commit -m "***NO_CI*** Update packages"
       git push
