@@ -2,14 +2,8 @@
 
 const INSTALLER_VERSION = "1";
 
-// The url to retrieve all available Advanced Custom Fields packages from
-$response = file_get_contents("https://connect.advancedcustomfields.com/v2/plugins/get-info?p=pro");
-$json = json_decode($response);
-
-$data = [];
-$versions = [];
-foreach ($json->tags as $tag) {
-    $versions[$tag] = [
+function createPackage($tag, $keywords) {
+    return [
         "name" => "advanced-custom-fields/advanced-custom-fields-pro",
         "description" => "Advanced Custom Fields PRO",
         "version" => $tag,
@@ -28,7 +22,7 @@ foreach ($json->tags as $tag) {
             ]
         ],
         "homepage" => "https://www.advancedcustomfields.com/",
-        "keywords" => $json->tagged,
+        "keywords" => $keywords,
         "dist" => (object)[
             "type" => "zip",
             "url" => "https://connect.advancedcustomfields.com/index.php?p=pro&a=download&t={$tag}"
@@ -37,6 +31,19 @@ foreach ($json->tags as $tag) {
             "philippbaschke/acf-pro-installer" => "^".INSTALLER_VERSION
         ]
     ];
+}
+
+// The url to retrieve all available Advanced Custom Fields packages from
+$response = file_get_contents("https://connect.advancedcustomfields.com/v2/plugins/get-info?p=pro");
+$json = json_decode($response);
+
+$data = [];
+$versions = [];
+    $versions['dev-master'] = createPackage($json->version, $json->tagged);
+    $versions['latest'] = createPackage($json->version, $json->tagged);
+    $versions[$json->version] = createPackage($json->version, $json->tagged);
+foreach ($json->tags as $tag) {
+    $versions[$tag] = createPackage($tag, $json->tagged);
 }
 $data['packages'] = (object)[
     "advanced-custom-fields/advanced-custom-fields-pro" => (object)$versions
