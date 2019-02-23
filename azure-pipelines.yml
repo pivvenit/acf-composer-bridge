@@ -28,15 +28,15 @@ steps:
 - script: php build.php
   displayName: 'Update repository'
 - bash: |
-    git config user.email "azurepipelines@pivvenit.net"
+    git config user.email "azureci@pivvenit.net"
     git config user.name "Azure Pipelines CI"
     git status
     if [[ -n $(git status -s) ]]
     then
-      git checkout -b build/$(Build.BuildId)
+      git checkout master
       git add -A
       git commit -m "***NO_CI*** Update packages"
-      git push --set-upstream origin build/$(Build.BuildId)
+      git push
     else
       echo "No changes in the repository"
     fi
