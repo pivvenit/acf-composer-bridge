@@ -17,6 +17,10 @@ steps:
   persistCredentials: true
   clean: true
 - script: |
+    sudo apt-get update
+    sudo apt-get install -y hub 
+  displayName: 'Install github tools'
+- script: |
     sudo update-alternatives --set php /usr/bin/php$(phpVersion)
     sudo update-alternatives --set phar /usr/bin/phar$(phpVersion)
     sudo update-alternatives --set phpdbg /usr/bin/phpdbg$(phpVersion)
@@ -33,11 +37,13 @@ steps:
     git status
     if [[ -n $(git status -s) ]]
     then
-      git checkout master
+      git checkout scheduled-build/$(Build.BuildId)
       git add -A
       git commit -m "***NO_CI*** Update packages"
-      git push
+      git push --set-upstream origin scheduled-build/$(Build.BuildId)
     else
       echo "No changes in the repository"
     fi
-  displayName: "Deploy"
+  displayName: "Push branch to remote"
+- script: hub pull-request -m "Update packages"
+  displayName: "Create pull-request"
