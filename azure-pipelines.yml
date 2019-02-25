@@ -28,8 +28,8 @@ steps:
 - script: php build.php
   displayName: 'Update repository'
 - bash: |
-    git config user.email "sklock@pivvenit.nl"
-    git config user.name "Sander Klock"
+    git config user.email "azureci@pivvenit.net"
+    git config user.name "Azure Pipelines Bot"
     git status
     if [[ -n $(git status -s) ]]
     then
