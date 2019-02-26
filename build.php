@@ -28,7 +28,7 @@ function createPackage($tag, $keywords, $alias = null) {
             "url" => "https://connect.advancedcustomfields.com/index.php?p=pro&a=download&t={$tag}"
         ],
         "require" => (object)[
-            "philippbaschke/acf-pro-installer" => "^".INSTALLER_VERSION
+            "pivvenit/acf-pro-installer" => "^".INSTALLER_VERSION
         ]
     ];
 }
