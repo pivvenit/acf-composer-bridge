@@ -26,7 +26,7 @@
                     "url": "https://connect.advancedcustomfields.com/index.php?p=pro&a=download&t=5.7.12"
                 },
                 "require": {
-                    "philippbaschke/acf-pro-installer": "^1"
+                    "pivvenit/acf-pro-installer": "^1"
                 }
             },
             "5.7.12": {
@@ -54,7 +54,7 @@
                     "url": "https://connect.advancedcustomfields.com/index.php?p=pro&a=download&t=5.7.12"
                 },
                 "require": {
-                    "philippbaschke/acf-pro-installer": "^1"
+                    "pivvenit/acf-pro-installer": "^1"
                 }
             },
             "5.8.0-beta3": {
@@ -82,7 +82,7 @@
                     "url": "https://connect.advancedcustomfields.com/index.php?p=pro&a=download&t=5.8.0-beta3"
                 },
                 "require": {
-                    "philippbaschke/acf-pro-installer": "^1"
+                    "pivvenit/acf-pro-installer": "^1"
                 }
             },
             "5.8.0-beta2": {
@@ -110,7 +110,7 @@
                     "url": "https://connect.advancedcustomfields.com/index.php?p=pro&a=download&t=5.8.0-beta2"
                 },
                 "require": {
-                    "philippbaschke/acf-pro-installer": "^1"
+                    "pivvenit/acf-pro-installer": "^1"
                 }
             },
             "5.8.0-beta1": {
@@ -138,7 +138,7 @@
                     "url": "https://connect.advancedcustomfields.com/index.php?p=pro&a=download&t=5.8.0-beta1"
                 },
                 "require": {
-                    "philippbaschke/acf-pro-installer": "^1"
+                    "pivvenit/acf-pro-installer": "^1"
                 }
             },
             "5.7.9": {
@@ -166,7 +166,7 @@
                     "url": "https://connect.advancedcustomfields.com/index.php?p=pro&a=download&t=5.7.9"
                 },
                 "require": {
-                    "philippbaschke/acf-pro-installer": "^1"
+                    "pivvenit/acf-pro-installer": "^1"
                 }
             },
             "5.7.8": {
@@ -194,7 +194,7 @@
                     "url": "https://connect.advancedcustomfields.com/index.php?p=pro&a=download&t=5.7.8"
                 },
                 "require": {
-                    "philippbaschke/acf-pro-installer": "^1"
+                    "pivvenit/acf-pro-installer": "^1"
                 }
             },
             "5.7.7": {
@@ -222,7 +222,7 @@
                     "url": "https://connect.advancedcustomfields.com/index.php?p=pro&a=download&t=5.7.7"
                 },
                 "require": {
-                    "philippbaschke/acf-pro-installer": "^1"
+                    "pivvenit/acf-pro-installer": "^1"
                 }
             },
             "5.7.6": {
@@ -250,7 +250,7 @@
                     "url": "https://connect.advancedcustomfields.com/index.php?p=pro&a=download&t=5.7.6"
                 },
                 "require": {
-                    "philippbaschke/acf-pro-installer": "^1"
+                    "pivvenit/acf-pro-installer": "^1"
                 }
             },
             "5.7.5": {
@@ -278,7 +278,7 @@
                     "url": "https://connect.advancedcustomfields.com/index.php?p=pro&a=download&t=5.7.5"
                 },
                 "require": {
-                    "philippbaschke/acf-pro-installer": "^1"
+                    "pivvenit/acf-pro-installer": "^1"
                 }
             },
             "5.7.4": {
@@ -306,7 +306,7 @@
                     "url": "https://connect.advancedcustomfields.com/index.php?p=pro&a=download&t=5.7.4"
                 },
                 "require": {
-                    "philippbaschke/acf-pro-installer": "^1"
+                    "pivvenit/acf-pro-installer": "^1"
                 }
             },
             "5.7.3": {
@@ -334,7 +334,7 @@
                     "url": "https://connect.advancedcustomfields.com/index.php?p=pro&a=download&t=5.7.3"
                 },
                 "require": {
-                    "philippbaschke/acf-pro-installer": "^1"
+                    "pivvenit/acf-pro-installer": "^1"
                 }
             },
             "5.7.2": {
@@ -362,7 +362,7 @@
                     "url": "https://connect.advancedcustomfields.com/index.php?p=pro&a=download&t=5.7.2"
                 },
                 "require": {
-                    "philippbaschke/acf-pro-installer": "^1"
+                    "pivvenit/acf-pro-installer": "^1"
                 }
             },
             "5.7.10": {
@@ -390,7 +390,7 @@
                     "url": "https://connect.advancedcustomfields.com/index.php?p=pro&a=download&t=5.7.10"
                 },
                 "require": {
-                    "philippbaschke/acf-pro-installer": "^1"
+                    "pivvenit/acf-pro-installer": "^1"
                 }
             },
             "5.7.1": {
@@ -418,7 +418,7 @@
                     "url": "https://connect.advancedcustomfields.com/index.php?p=pro&a=download&t=5.7.1"
                 },
                 "require": {
-                    "philippbaschke/acf-pro-installer": "^1"
+                    "pivvenit/acf-pro-installer": "^1"
                 }
             },
             "5.7.0": {
@@ -446,7 +446,7 @@
                     "url": "https://connect.advancedcustomfields.com/index.php?p=pro&a=download&t=5.7.0"
                 },
                 "require": {
-                    "philippbaschke/acf-pro-installer": "^1"
+                    "pivvenit/acf-pro-installer": "^1"
                 }
             },
             "5.6.9": {
@@ -474,7 +474,7 @@
                     "url": "https://connect.advancedcustomfields.com/index.php?p=pro&a=download&t=5.6.9"
                 },
                 "require": {
-                    "philippbaschke/acf-pro-installer": "^1"
+                    "pivvenit/acf-pro-installer": "^1"
                 }
             },
             "5.6.8": {
@@ -502,7 +502,7 @@
                     "url": "https://connect.advancedcustomfields.com/index.php?p=pro&a=download&t=5.6.8"
                 },
                 "require": {
-                    "philippbaschke/acf-pro-installer": "^1"
+                    "pivvenit/acf-pro-installer": "^1"
                 }
             },
             "5.6.7": {
@@ -530,7 +530,7 @@
                     "url": "https://connect.advancedcustomfields.com/index.php?p=pro&a=download&t=5.6.7"
                 },
                 "require": {
-                    "philippbaschke/acf-pro-installer": "^1"
+                    "pivvenit/acf-pro-installer": "^1"
                 }
             },
             "5.6.6": {
@@ -558,7 +558,7 @@
                     "url": "https://connect.advancedcustomfields.com/index.php?p=pro&a=download&t=5.6.6"
                 },
                 "require": {
-                    "philippbaschke/acf-pro-installer": "^1"
+                    "pivvenit/acf-pro-installer": "^1"
                 }
             },
             "5.6.5": {
@@ -586,7 +586,7 @@
                     "url": "https://connect.advancedcustomfields.com/index.php?p=pro&a=download&t=5.6.5"
                 },
                 "require": {
-                    "philippbaschke/acf-pro-installer": "^1"
+                    "pivvenit/acf-pro-installer": "^1"
                 }
             },
             "5.6.4": {
@@ -614,7 +614,7 @@
                     "url": "https://connect.advancedcustomfields.com/index.php?p=pro&a=download&t=5.6.4"
                 },
                 "require": {
-                    "philippbaschke/acf-pro-installer": "^1"
+                    "pivvenit/acf-pro-installer": "^1"
                 }
             },
             "5.6.3": {
@@ -642,7 +642,7 @@
                     "url": "https://connect.advancedcustomfields.com/index.php?p=pro&a=download&t=5.6.3"
                 },
                 "require": {
-                    "philippbaschke/acf-pro-installer": "^1"
+                    "pivvenit/acf-pro-installer": "^1"
                 }
             },
             "5.6.2": {
@@ -670,7 +670,7 @@
                     "url": "https://connect.advancedcustomfields.com/index.php?p=pro&a=download&t=5.6.2"
                 },
                 "require": {
-                    "philippbaschke/acf-pro-installer": "^1"
+                    "pivvenit/acf-pro-installer": "^1"
                 }
             },
             "5.6.10": {
@@ -698,7 +698,7 @@
                     "url": "https://connect.advancedcustomfields.com/index.php?p=pro&a=download&t=5.6.10"
                 },
                 "require": {
-                    "philippbaschke/acf-pro-installer": "^1"
+                    "pivvenit/acf-pro-installer": "^1"
                 }
             },
             "5.6.1": {
@@ -726,7 +726,7 @@
                     "url": "https://connect.advancedcustomfields.com/index.php?p=pro&a=download&t=5.6.1"
                 },
                 "require": {
-                    "philippbaschke/acf-pro-installer": "^1"
+                    "pivvenit/acf-pro-installer": "^1"
                 }
             },
             "5.6.0-beta2": {
@@ -754,7 +754,7 @@
                     "url": "https://connect.advancedcustomfields.com/index.php?p=pro&a=download&t=5.6.0-beta2"
                 },
                 "require": {
-                    "philippbaschke/acf-pro-installer": "^1"
+                    "pivvenit/acf-pro-installer": "^1"
                 }
             },
             "5.6.0-beta1": {
@@ -782,7 +782,7 @@
                     "url": "https://connect.advancedcustomfields.com/index.php?p=pro&a=download&t=5.6.0-beta1"
                 },
                 "require": {
-                    "philippbaschke/acf-pro-installer": "^1"
+                    "pivvenit/acf-pro-installer": "^1"
                 }
             },
             "5.6.0-RC2": {
@@ -810,7 +810,7 @@
                     "url": "https://connect.advancedcustomfields.com/index.php?p=pro&a=download&t=5.6.0-RC2"
                 },
                 "require": {
-                    "philippbaschke/acf-pro-installer": "^1"
+                    "pivvenit/acf-pro-installer": "^1"
                 }
             },
             "5.6.0-RC1": {
@@ -838,7 +838,7 @@
                     "url": "https://connect.advancedcustomfields.com/index.php?p=pro&a=download&t=5.6.0-RC1"
                 },
                 "require": {
-                    "philippbaschke/acf-pro-installer": "^1"
+                    "pivvenit/acf-pro-installer": "^1"
                 }
             },
             "5.6.0": {
@@ -866,7 +866,7 @@
                     "url": "https://connect.advancedcustomfields.com/index.php?p=pro&a=download&t=5.6.0"
                 },
                 "require": {
-                    "philippbaschke/acf-pro-installer": "^1"
+                    "pivvenit/acf-pro-installer": "^1"
                 }
             },
             "5.5.9": {
@@ -894,7 +894,7 @@
                     "url": "https://connect.advancedcustomfields.com/index.php?p=pro&a=download&t=5.5.9"
                 },
                 "require": {
-                    "philippbaschke/acf-pro-installer": "^1"
+                    "pivvenit/acf-pro-installer": "^1"
                 }
             },
             "5.5.7": {
@@ -922,7 +922,7 @@
                     "url": "https://connect.advancedcustomfields.com/index.php?p=pro&a=download&t=5.5.7"
                 },
                 "require": {
-                    "philippbaschke/acf-pro-installer": "^1"
+                    "pivvenit/acf-pro-installer": "^1"
                 }
             },
             "5.5.5": {
@@ -950,7 +950,7 @@
                     "url": "https://connect.advancedcustomfields.com/index.php?p=pro&a=download&t=5.5.5"
                 },
                 "require": {
-                    "philippbaschke/acf-pro-installer": "^1"
+                    "pivvenit/acf-pro-installer": "^1"
                 }
             },
             "5.5.3": {
@@ -978,7 +978,7 @@
                     "url": "https://connect.advancedcustomfields.com/index.php?p=pro&a=download&t=5.5.3"
                 },
                 "require": {
-                    "philippbaschke/acf-pro-installer": "^1"
+                    "pivvenit/acf-pro-installer": "^1"
                 }
             },
             "5.5.2": {
@@ -1006,7 +1006,7 @@
                     "url": "https://connect.advancedcustomfields.com/index.php?p=pro&a=download&t=5.5.2"
                 },
                 "require": {
-                    "philippbaschke/acf-pro-installer": "^1"
+                    "pivvenit/acf-pro-installer": "^1"
                 }
             },
             "5.5.14": {
@@ -1034,7 +1034,7 @@
                     "url": "https://connect.advancedcustomfields.com/index.php?p=pro&a=download&t=5.5.14"
                 },
                 "require": {
-                    "philippbaschke/acf-pro-installer": "^1"
+                    "pivvenit/acf-pro-installer": "^1"
                 }
             },
             "5.5.13": {
@@ -1062,7 +1062,7 @@
                     "url": "https://connect.advancedcustomfields.com/index.php?p=pro&a=download&t=5.5.13"
                 },
                 "require": {
-                    "philippbaschke/acf-pro-installer": "^1"
+                    "pivvenit/acf-pro-installer": "^1"
                 }
             },
             "5.5.12": {
@@ -1090,7 +1090,7 @@
                     "url": "https://connect.advancedcustomfields.com/index.php?p=pro&a=download&t=5.5.12"
                 },
                 "require": {
-                    "philippbaschke/acf-pro-installer": "^1"
+                    "pivvenit/acf-pro-installer": "^1"
                 }
             },
             "5.5.11": {
@@ -1118,7 +1118,7 @@
                     "url": "https://connect.advancedcustomfields.com/index.php?p=pro&a=download&t=5.5.11"
                 },
                 "require": {
-                    "philippbaschke/acf-pro-installer": "^1"
+                    "pivvenit/acf-pro-installer": "^1"
                 }
             },
             "5.5.10": {
@@ -1146,7 +1146,7 @@
                     "url": "https://connect.advancedcustomfields.com/index.php?p=pro&a=download&t=5.5.10"
                 },
                 "require": {
-                    "philippbaschke/acf-pro-installer": "^1"
+                    "pivvenit/acf-pro-installer": "^1"
                 }
             },
             "5.5.1": {
@@ -1174,7 +1174,7 @@
                     "url": "https://connect.advancedcustomfields.com/index.php?p=pro&a=download&t=5.5.1"
                 },
                 "require": {
-                    "philippbaschke/acf-pro-installer": "^1"
+                    "pivvenit/acf-pro-installer": "^1"
                 }
             },
             "5.5.0": {
@@ -1202,7 +1202,7 @@
                     "url": "https://connect.advancedcustomfields.com/index.php?p=pro&a=download&t=5.5.0"
                 },
                 "require": {
-                    "philippbaschke/acf-pro-installer": "^1"
+                    "pivvenit/acf-pro-installer": "^1"
                 }
             },
             "5.4.8": {
@@ -1230,7 +1230,7 @@
                     "url": "https://connect.advancedcustomfields.com/index.php?p=pro&a=download&t=5.4.8"
                 },
                 "require": {
-                    "philippbaschke/acf-pro-installer": "^1"
+                    "pivvenit/acf-pro-installer": "^1"
                 }
             },
             "5.4.7": {
@@ -1258,7 +1258,7 @@
                     "url": "https://connect.advancedcustomfields.com/index.php?p=pro&a=download&t=5.4.7"
                 },
                 "require": {
-                    "philippbaschke/acf-pro-installer": "^1"
+                    "pivvenit/acf-pro-installer": "^1"
                 }
             },
             "5.4.6": {
@@ -1286,7 +1286,7 @@
                     "url": "https://connect.advancedcustomfields.com/index.php?p=pro&a=download&t=5.4.6"
                 },
                 "require": {
-                    "philippbaschke/acf-pro-installer": "^1"
+                    "pivvenit/acf-pro-installer": "^1"
                 }
             },
             "5.4.5": {
@@ -1314,7 +1314,7 @@
                     "url": "https://connect.advancedcustomfields.com/index.php?p=pro&a=download&t=5.4.5"
                 },
                 "require": {
-                    "philippbaschke/acf-pro-installer": "^1"
+                    "pivvenit/acf-pro-installer": "^1"
                 }
             },
             "5.4.4": {
@@ -1342,7 +1342,7 @@
                     "url": "https://connect.advancedcustomfields.com/index.php?p=pro&a=download&t=5.4.4"
                 },
                 "require": {
-                    "philippbaschke/acf-pro-installer": "^1"
+                    "pivvenit/acf-pro-installer": "^1"
                 }
             },
             "5.4.3": {
@@ -1370,7 +1370,7 @@
                     "url": "https://connect.advancedcustomfields.com/index.php?p=pro&a=download&t=5.4.3"
                 },
                 "require": {
-                    "philippbaschke/acf-pro-installer": "^1"
+                    "pivvenit/acf-pro-installer": "^1"
                 }
             },
             "5.4.2": {
@@ -1398,7 +1398,7 @@
                     "url": "https://connect.advancedcustomfields.com/index.php?p=pro&a=download&t=5.4.2"
                 },
                 "require": {
-                    "philippbaschke/acf-pro-installer": "^1"
+                    "pivvenit/acf-pro-installer": "^1"
                 }
             },
             "5.4.1": {
@@ -1426,7 +1426,7 @@
                     "url": "https://connect.advancedcustomfields.com/index.php?p=pro&a=download&t=5.4.1"
                 },
                 "require": {
-                    "philippbaschke/acf-pro-installer": "^1"
+                    "pivvenit/acf-pro-installer": "^1"
                 }
             },
             "5.4.0": {
@@ -1454,7 +1454,7 @@
                     "url": "https://connect.advancedcustomfields.com/index.php?p=pro&a=download&t=5.4.0"
                 },
                 "require": {
-                    "philippbaschke/acf-pro-installer": "^1"
+                    "pivvenit/acf-pro-installer": "^1"
                 }
             },
             "5.3.9": {
@@ -1482,7 +1482,7 @@
                     "url": "https://connect.advancedcustomfields.com/index.php?p=pro&a=download&t=5.3.9"
                 },
                 "require": {
-                    "philippbaschke/acf-pro-installer": "^1"
+                    "pivvenit/acf-pro-installer": "^1"
                 }
             },
             "5.3.8": {
@@ -1510,7 +1510,7 @@
                     "url": "https://connect.advancedcustomfields.com/index.php?p=pro&a=download&t=5.3.8"
                 },
                 "require": {
-                    "philippbaschke/acf-pro-installer": "^1"
+                    "pivvenit/acf-pro-installer": "^1"
                 }
             },
             "5.3.7": {
@@ -1538,7 +1538,7 @@
                     "url": "https://connect.advancedcustomfields.com/index.php?p=pro&a=download&t=5.3.7"
                 },
                 "require": {
-                    "philippbaschke/acf-pro-installer": "^1"
+                    "pivvenit/acf-pro-installer": "^1"
                 }
             },
             "5.3.6": {
@@ -1566,7 +1566,7 @@
                     "url": "https://connect.advancedcustomfields.com/index.php?p=pro&a=download&t=5.3.6"
                 },
                 "require": {
-                    "philippbaschke/acf-pro-installer": "^1"
+                    "pivvenit/acf-pro-installer": "^1"
                 }
             },
             "5.3.5": {
@@ -1594,7 +1594,7 @@
                     "url": "https://connect.advancedcustomfields.com/index.php?p=pro&a=download&t=5.3.5"
                 },
                 "require": {
-                    "philippbaschke/acf-pro-installer": "^1"
+                    "pivvenit/acf-pro-installer": "^1"
                 }
             },
             "5.3.4": {
@@ -1622,7 +1622,7 @@
                     "url": "https://connect.advancedcustomfields.com/index.php?p=pro&a=download&t=5.3.4"
                 },
                 "require": {
-                    "philippbaschke/acf-pro-installer": "^1"
+                    "pivvenit/acf-pro-installer": "^1"
                 }
             },
             "5.3.3": {
@@ -1650,7 +1650,7 @@
                     "url": "https://connect.advancedcustomfields.com/index.php?p=pro&a=download&t=5.3.3"
                 },
                 "require": {
-                    "philippbaschke/acf-pro-installer": "^1"
+                    "pivvenit/acf-pro-installer": "^1"
                 }
             },
             "5.3.2": {
@@ -1678,7 +1678,7 @@
                     "url": "https://connect.advancedcustomfields.com/index.php?p=pro&a=download&t=5.3.2"
                 },
                 "require": {
-                    "philippbaschke/acf-pro-installer": "^1"
+                    "pivvenit/acf-pro-installer": "^1"
                 }
             },
             "5.3.10": {
@@ -1706,7 +1706,7 @@
                     "url": "https://connect.advancedcustomfields.com/index.php?p=pro&a=download&t=5.3.10"
                 },
                 "require": {
-                    "philippbaschke/acf-pro-installer": "^1"
+                    "pivvenit/acf-pro-installer": "^1"
                 }
             },
             "5.3.1": {
@@ -1734,7 +1734,7 @@
                     "url": "https://connect.advancedcustomfields.com/index.php?p=pro&a=download&t=5.3.1"
                 },
                 "require": {
-                    "philippbaschke/acf-pro-installer": "^1"
+                    "pivvenit/acf-pro-installer": "^1"
                 }
             },
             "5.3.0": {
@@ -1762,7 +1762,7 @@
                     "url": "https://connect.advancedcustomfields.com/index.php?p=pro&a=download&t=5.3.0"
                 },
                 "require": {
-                    "philippbaschke/acf-pro-installer": "^1"
+                    "pivvenit/acf-pro-installer": "^1"
                 }
             },
             "5.2.9": {
@@ -1790,7 +1790,7 @@
                     "url": "https://connect.advancedcustomfields.com/index.php?p=pro&a=download&t=5.2.9"
                 },
                 "require": {
-                    "philippbaschke/acf-pro-installer": "^1"
+                    "pivvenit/acf-pro-installer": "^1"
                 }
             },
             "5.2.8": {
@@ -1818,7 +1818,7 @@
                     "url": "https://connect.advancedcustomfields.com/index.php?p=pro&a=download&t=5.2.8"
                 },
                 "require": {
-                    "philippbaschke/acf-pro-installer": "^1"
+                    "pivvenit/acf-pro-installer": "^1"
                 }
             },
             "5.2.7": {
@@ -1846,7 +1846,7 @@
                     "url": "https://connect.advancedcustomfields.com/index.php?p=pro&a=download&t=5.2.7"
                 },
                 "require": {
-                    "philippbaschke/acf-pro-installer": "^1"
+                    "pivvenit/acf-pro-installer": "^1"
                 }
             },
             "5.2.6": {
@@ -1874,7 +1874,7 @@
                     "url": "https://connect.advancedcustomfields.com/index.php?p=pro&a=download&t=5.2.6"
                 },
                 "require": {
-                    "philippbaschke/acf-pro-installer": "^1"
+                    "pivvenit/acf-pro-installer": "^1"
                 }
             },
             "5.2.5": {
@@ -1902,7 +1902,7 @@
                     "url": "https://connect.advancedcustomfields.com/index.php?p=pro&a=download&t=5.2.5"
                 },
                 "require": {
-                    "philippbaschke/acf-pro-installer": "^1"
+                    "pivvenit/acf-pro-installer": "^1"
                 }
             },
             "5.2.4": {
@@ -1930,7 +1930,7 @@
                     "url": "https://connect.advancedcustomfields.com/index.php?p=pro&a=download&t=5.2.4"
                 },
                 "require": {
-                    "philippbaschke/acf-pro-installer": "^1"
+                    "pivvenit/acf-pro-installer": "^1"
                 }
             },
             "5.2.3": {
@@ -1958,7 +1958,7 @@
                     "url": "https://connect.advancedcustomfields.com/index.php?p=pro&a=download&t=5.2.3"
                 },
                 "require": {
-                    "philippbaschke/acf-pro-installer": "^1"
+                    "pivvenit/acf-pro-installer": "^1"
                 }
             },
             "5.2.2": {
@@ -1986,7 +1986,7 @@
                     "url": "https://connect.advancedcustomfields.com/index.php?p=pro&a=download&t=5.2.2"
                 },
                 "require": {
-                    "philippbaschke/acf-pro-installer": "^1"
+                    "pivvenit/acf-pro-installer": "^1"
                 }
             },
             "5.2.1": {
@@ -2014,7 +2014,7 @@
                     "url": "https://connect.advancedcustomfields.com/index.php?p=pro&a=download&t=5.2.1"
                 },
                 "require": {
-                    "philippbaschke/acf-pro-installer": "^1"
+                    "pivvenit/acf-pro-installer": "^1"
                 }
             },
             "5.2.0": {
@@ -2042,7 +2042,7 @@
                     "url": "https://connect.advancedcustomfields.com/index.php?p=pro&a=download&t=5.2.0"
                 },
                 "require": {
-                    "philippbaschke/acf-pro-installer": "^1"
+                    "pivvenit/acf-pro-installer": "^1"
                 }
             },
             "5.1.9": {
@@ -2070,7 +2070,7 @@
                     "url": "https://connect.advancedcustomfields.com/index.php?p=pro&a=download&t=5.1.9"
                 },
                 "require": {
-                    "philippbaschke/acf-pro-installer": "^1"
+                    "pivvenit/acf-pro-installer": "^1"
                 }
             },
             "5.1.8": {
@@ -2098,7 +2098,7 @@
                     "url": "https://connect.advancedcustomfields.com/index.php?p=pro&a=download&t=5.1.8"
                 },
                 "require": {
-                    "philippbaschke/acf-pro-installer": "^1"
+                    "pivvenit/acf-pro-installer": "^1"
                 }
             },
             "5.1.7": {
@@ -2126,7 +2126,7 @@
                     "url": "https://connect.advancedcustomfields.com/index.php?p=pro&a=download&t=5.1.7"
                 },
                 "require": {
-                    "philippbaschke/acf-pro-installer": "^1"
+                    "pivvenit/acf-pro-installer": "^1"
                 }
             },
             "5.1.6": {
@@ -2154,7 +2154,7 @@
                     "url": "https://connect.advancedcustomfields.com/index.php?p=pro&a=download&t=5.1.6"
                 },
                 "require": {
-                    "philippbaschke/acf-pro-installer": "^1"
+                    "pivvenit/acf-pro-installer": "^1"
                 }
             },
             "5.1.5": {
@@ -2182,7 +2182,7 @@
                     "url": "https://connect.advancedcustomfields.com/index.php?p=pro&a=download&t=5.1.5"
                 },
                 "require": {
-                    "philippbaschke/acf-pro-installer": "^1"
+                    "pivvenit/acf-pro-installer": "^1"
                 }
             },
             "5.1.4": {
@@ -2210,7 +2210,7 @@
                     "url": "https://connect.advancedcustomfields.com/index.php?p=pro&a=download&t=5.1.4"
                 },
                 "require": {
-                    "philippbaschke/acf-pro-installer": "^1"
+                    "pivvenit/acf-pro-installer": "^1"
                 }
             },
             "5.1.3": {
@@ -2238,7 +2238,7 @@
                     "url": "https://connect.advancedcustomfields.com/index.php?p=pro&a=download&t=5.1.3"
                 },
                 "require": {
-                    "philippbaschke/acf-pro-installer": "^1"
+                    "pivvenit/acf-pro-installer": "^1"
                 }
             },
             "5.1.2": {
@@ -2266,7 +2266,7 @@
                     "url": "https://connect.advancedcustomfields.com/index.php?p=pro&a=download&t=5.1.2"
                 },
                 "require": {
-                    "philippbaschke/acf-pro-installer": "^1"
+                    "pivvenit/acf-pro-installer": "^1"
                 }
             },
             "5.1.1": {
@@ -2294,7 +2294,7 @@
                     "url": "https://connect.advancedcustomfields.com/index.php?p=pro&a=download&t=5.1.1"
                 },
                 "require": {
-                    "philippbaschke/acf-pro-installer": "^1"
+                    "pivvenit/acf-pro-installer": "^1"
                 }
             },
             "5.1.0": {
@@ -2322,7 +2322,7 @@
                     "url": "https://connect.advancedcustomfields.com/index.php?p=pro&a=download&t=5.1.0"
                 },
                 "require": {
-                    "philippbaschke/acf-pro-installer": "^1"
+                    "pivvenit/acf-pro-installer": "^1"
                 }
             },
             "5.0.9": {
@@ -2350,7 +2350,7 @@
                     "url": "https://connect.advancedcustomfields.com/index.php?p=pro&a=download&t=5.0.9"
                 },
                 "require": {
-                    "philippbaschke/acf-pro-installer": "^1"
+                    "pivvenit/acf-pro-installer": "^1"
                 }
             },
             "5.0.8": {
@@ -2378,7 +2378,7 @@
                     "url": "https://connect.advancedcustomfields.com/index.php?p=pro&a=download&t=5.0.8"
                 },
                 "require": {
-                    "philippbaschke/acf-pro-installer": "^1"
+                    "pivvenit/acf-pro-installer": "^1"
                 }
             },
             "5.0.7": {
@@ -2406,7 +2406,7 @@
                     "url": "https://connect.advancedcustomfields.com/index.php?p=pro&a=download&t=5.0.7"
                 },
                 "require": {
-                    "philippbaschke/acf-pro-installer": "^1"
+                    "pivvenit/acf-pro-installer": "^1"
                 }
             },
             "5.0.6": {
@@ -2434,7 +2434,7 @@
                     "url": "https://connect.advancedcustomfields.com/index.php?p=pro&a=download&t=5.0.6"
                 },
                 "require": {
-                    "philippbaschke/acf-pro-installer": "^1"
+                    "pivvenit/acf-pro-installer": "^1"
                 }
             },
             "5.0.5": {
@@ -2462,7 +2462,7 @@
                     "url": "https://connect.advancedcustomfields.com/index.php?p=pro&a=download&t=5.0.5"
                 },
                 "require": {
-                    "philippbaschke/acf-pro-installer": "^1"
+                    "pivvenit/acf-pro-installer": "^1"
                 }
             },
             "5.0.4": {
@@ -2490,7 +2490,7 @@
                     "url": "https://connect.advancedcustomfields.com/index.php?p=pro&a=download&t=5.0.4"
                 },
                 "require": {
-                    "philippbaschke/acf-pro-installer": "^1"
+                    "pivvenit/acf-pro-installer": "^1"
                 }
             },
             "5.0.3": {
@@ -2518,7 +2518,7 @@
                     "url": "https://connect.advancedcustomfields.com/index.php?p=pro&a=download&t=5.0.3"
                 },
                 "require": {
-                    "philippbaschke/acf-pro-installer": "^1"
+                    "pivvenit/acf-pro-installer": "^1"
                 }
             },
             "5.0.2": {
@@ -2546,7 +2546,7 @@
                     "url": "https://connect.advancedcustomfields.com/index.php?p=pro&a=download&t=5.0.2"
                 },
                 "require": {
-                    "philippbaschke/acf-pro-installer": "^1"
+                    "pivvenit/acf-pro-installer": "^1"
                 }
             },
             "5.0.1": {
@@ -2574,7 +2574,7 @@
                     "url": "https://connect.advancedcustomfields.com/index.php?p=pro&a=download&t=5.0.1"
                 },
                 "require": {
-                    "philippbaschke/acf-pro-installer": "^1"
+                    "pivvenit/acf-pro-installer": "^1"
                 }
             },
             "5.0.0": {
@@ -2602,7 +2602,7 @@
                     "url": "https://connect.advancedcustomfields.com/index.php?p=pro&a=download&t=5.0.0"
                 },
                 "require": {
-                    "philippbaschke/acf-pro-installer": "^1"
+                    "pivvenit/acf-pro-installer": "^1"
                 }
             }
         }
