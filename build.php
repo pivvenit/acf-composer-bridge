@@ -40,7 +40,6 @@ $json = json_decode($response);
 $data = [];
 $versions = [];
 $versions['dev-master'] = createPackage($json->version, $json->tagged,'dev-master');
-$versions['latest'] = createPackage($json->version, $json->tagged, 'latest');
 $versions[$json->version] = createPackage($json->version, $json->tagged);
 foreach ($json->tags as $tag) {
     $versions[$tag] = createPackage($tag, $json->tagged);
