@@ -34,7 +34,7 @@ steps:
       git add -A
       git stash
       git checkout gh-pages
-      git checkout stash -- .
+      git checkout stash -- composer
       git commit -m "***NO_CI*** Update packages"
       git push https://$(pat)@github.com/pivvenit/acf-composer-bridge.git
     else
