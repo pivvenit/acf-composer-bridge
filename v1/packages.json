@@ -30,6 +30,7 @@
                 }
             },
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
             "latest": {
                 "name": "advanced-custom-fields/advanced-custom-fields-pro",
                 "description": "Advanced Custom Fields PRO",
@@ -58,6 +59,8 @@
                     "philippbaschke/acf-pro-installer": "^1"
                 }
             },
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
             "5.7.12": {
