@@ -34,7 +34,10 @@ steps:
     if [[ -n $(git status -s) ]]
     then
       git add -A
+      git stash
       git checkout gh-pages
+      git stash pop
+      git add -A
       git commit -m "***NO_CI*** Update packages"
       git push https://$(pat)@github.com/pivvenit/acf-composer-bridge.git
     else
