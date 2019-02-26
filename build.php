@@ -1,6 +1,6 @@
 <?php
 
-const INSTALLER_VERSION = "1";
+const INSTALLER_VERSION = "2";
 
 function createPackage($tag, $keywords, $alias = null) {
     return [
