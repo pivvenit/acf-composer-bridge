@@ -50,6 +50,6 @@ $data['packages'] = (object)[
 $output = json_encode((object)$data, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES);
 $outputDir = __DIR__."/composer/v".INSTALLER_VERSION;
 if (!is_dir($outputDir)) {
-    mkdir($outputDir);
+    mkdir($outputDir, 0777, true);
 }
 file_put_contents("{$outputDir}/packages.json", $output);
