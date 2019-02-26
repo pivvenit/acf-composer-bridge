@@ -1,10 +1,8 @@
-# PHP
-# Test and package your PHP project.
-# Add steps that run tests, save build artifacts, deploy, and more:
-# https://docs.microsoft.com/azure/devops/pipelines/languages/php
-
 trigger:
- - master
+  batch: true
+  branches:
+    include:
+      - master
  
 pool:
   vmImage: 'Ubuntu-16.04'
@@ -36,8 +34,7 @@ steps:
       git add -A
       git stash
       git checkout gh-pages
-      git stash pop
-      git add -A
+      git checkout stash -- .
       git commit -m "***NO_CI*** Update packages"
       git push https://$(pat)@github.com/pivvenit/acf-composer-bridge.git
     else
