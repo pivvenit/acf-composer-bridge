@@ -38,7 +38,7 @@ steps:
     git status
     if [[ -n $(git status -s) ]]
     then
-      git add docs/*
+      git add -A
       git checkout gh-pages
       git commit -m "***NO_CI*** Update packages"
       git push https://$(pat)@github.com/pivvenit/acf-composer-bridge.git
