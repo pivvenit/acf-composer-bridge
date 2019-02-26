@@ -29,40 +29,6 @@
                     "philippbaschke/acf-pro-installer": "^1"
                 }
             },
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-            "latest": {
-                "name": "advanced-custom-fields/advanced-custom-fields-pro",
-                "description": "Advanced Custom Fields PRO",
-                "version": "latest",
-                "type": "wpackagist-plugin",
-                "license": "GPL-2.0-or-later",
-                "authors": [
-                    {
-                        "name": "Elliot Condon",
-                        "homepage": "http://www.elliotcondon.com",
-                        "role": "Maintainer"
-                    },
-                    {
-                        "name": "PivvenIT",
-                        "homepage": "https://pivvenit.nl",
-                        "role": "Composer Repository maintainer"
-                    }
-                ],
-                "homepage": "https://www.advancedcustomfields.com/",
-                "keywords": "acf, advanced, custom, field, fields, form, repeater, content",
-                "dist": {
-                    "type": "zip",
-                    "url": "https://connect.advancedcustomfields.com/index.php?p=pro&a=download&t=5.7.12"
-                },
-                "require": {
-                    "philippbaschke/acf-pro-installer": "^1"
-                }
-            },
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
             "5.7.12": {
                 "name": "advanced-custom-fields/advanced-custom-fields-pro",
                 "description": "Advanced Custom Fields PRO",
