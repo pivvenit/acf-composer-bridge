@@ -49,7 +49,7 @@ $data['packages'] = (object)[
     "advanced-custom-fields/advanced-custom-fields-pro" => (object)$versions
 ];
 $output = json_encode((object)$data, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES);
-$outputDir = __DIR__."/docs/v".INSTALLER_VERSION;
+$outputDir = __DIR__."/v".INSTALLER_VERSION;
 if (!is_dir($outputDir)) {
     mkdir($outputDir);
 }
