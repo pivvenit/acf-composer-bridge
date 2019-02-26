@@ -4,13 +4,8 @@
 # https://docs.microsoft.com/azure/devops/pipelines/languages/php
 
 trigger:
-  branches:
-    include:
-    - master
-  paths:
-    exclude:
-    - docs/*
-
+ - master
+ 
 pool:
   vmImage: 'Ubuntu-16.04'
 
