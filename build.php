@@ -2,12 +2,14 @@
 
 const INSTALLER_VERSION = "2";
 
-function createPackage($tag, $keywords, $alias = null) {
+$types = ["wpackagist-plugin","wpackagist-muplugin", "wordpress-plugin", "library"];
+
+function createPackage($tag, $keywords, $alias = null, $type = "wpackagist-plugin") {
     return [
         "name" => "advanced-custom-fields/advanced-custom-fields-pro",
         "description" => "Advanced Custom Fields PRO",
         "version" => $alias ?? $tag,
-        "type" => "wpackagist-plugin",
+        "type" => $type,
         "license" => "GPL-2.0-or-later",
         "authors" => [
             (object)[
@@ -37,19 +39,24 @@ function createPackage($tag, $keywords, $alias = null) {
 $response = file_get_contents("https://connect.advancedcustomfields.com/v2/plugins/get-info?p=pro");
 $json = json_decode($response);
 
-$data = [];
-$versions = [];
-$versions['dev-master'] = createPackage($json->version, $json->tagged,'dev-master');
-$versions[$json->version] = createPackage($json->version, $json->tagged);
-foreach ($json->tags as $tag) {
-    $versions[$tag] = createPackage($tag, $json->tagged);
+foreach ($types as $type) {
+    $data = [];
+    $versions = [];
+    $versions['dev-master'] = createPackage($json->version, $json->tagged, 'dev-master', $type);
+    $versions[$json->version] = createPackage($json->version, $json->tagged, null, $type);
+    foreach ($json->tags as $tag) {
+        $versions[$tag] = createPackage($tag, $json->tagged, null, $type);
+    }
+    $data['packages'] = (object)[
+        "advanced-custom-fields/advanced-custom-fields-pro" => (object)$versions
+    ];
+    $output = json_encode((object)$data, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES);
+    $outputDir = __DIR__."/composer/v".INSTALLER_VERSION;
+    if (!is_dir($outputDir."/{$type}")) {
+        mkdir($outputDir, 0777, true);
+    }
+    file_put_contents("{$outputDir}/{$type}/packages.json", $output);
+    if ($type == "wpackagist-plugin") {
+        file_put_contents("{$outputDir}/packages.json", $output);
+    }
 }
-$data['packages'] = (object)[
-    "advanced-custom-fields/advanced-custom-fields-pro" => (object)$versions
-];
-$output = json_encode((object)$data, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES);
-$outputDir = __DIR__."/composer/v".INSTALLER_VERSION;
-if (!is_dir($outputDir)) {
-    mkdir($outputDir, 0777, true);
-}
-file_put_contents("{$outputDir}/packages.json", $output);
