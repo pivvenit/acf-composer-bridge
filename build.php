@@ -53,7 +53,7 @@ foreach ($types as $type) {
     $output = json_encode((object)$data, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES);
     $outputDir = __DIR__."/composer/v".INSTALLER_VERSION;
     if (!is_dir($outputDir."/{$type}")) {
-        mkdir($outputDir, 0777, true);
+        mkdir($outputDir."/{$type}", 0777, true);
     }
     file_put_contents("{$outputDir}/{$type}/packages.json", $output);
     if ($type == "wpackagist-plugin") {
