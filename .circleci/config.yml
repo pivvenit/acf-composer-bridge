@@ -8,7 +8,7 @@ jobs:
       - checkout
       - run:
           name: Run full checkout
-          command: git pull
+          command: git fetch --all
       - run:
           name: Generate repository
           command: php build.php
