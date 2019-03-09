@@ -1,6 +1,6 @@
 # Advanced Custom Fields Pro Composer Bridge
 
-[![Build Status](https://dev.azure.com/sklock0564/ACF%20Composer%20Bridge/_apis/build/status/pivvenit.acf-composer-bridge?branchName=master)](https://dev.azure.com/sklock0564/ACF%20Composer%20Bridge/_build/latest?definitionId=1&branchName=master)
+[![CircleCI](https://circleci.com/gh/pivvenit/acf-composer-bridge.svg?style=svg)](https://circleci.com/gh/pivvenit/acf-composer-bridge)
 
 This repository acts as a bridge to use the excellent [Advanced Custom Fields Pro](https://www.advancedcustomfields.com/pro/)
 Wordpress plugin together with [Composer](https://getcomposer.org)/[Bedrock](https://roots.io/bedrock/).
