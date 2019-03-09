@@ -71,7 +71,7 @@ composer require advanced-custom-fields/advanced-custom-fields-pro
 ## How does it work
 This Github repository is a 'Composer repository'.
 Actually a composer repository is simply a packages.json served from a webserver.
-This repository uses [Azure Pipelines](https://azure.microsoft.com/nl-nl/services/devops/pipelines/) to periodically create a packages.json that references 
+This repository uses [CircleCI](https://circleci.com/gh/pivvenit/acf-composer-bridge/) to periodically create a packages.json that references 
 the files provided by ACF. Please note that these files require a valid license key that is **not provided** by this repository.
 In order to append this license key to the files, [https://github.com/pivvenit/acf-pro-installer](https://github.com/pivvenit/acf-pro-installer) is used.
 This installer detects that you want to install advanced custom fields, and then appends the provided private key (via environment variable) to the actual download URL on ACF's servers (so the key is never send to this composer repository).
