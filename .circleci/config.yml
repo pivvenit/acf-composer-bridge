@@ -17,13 +17,12 @@ jobs:
           command: |
             git config user.email "azureci@pivvenit.net"
             git config user.name "Azure Pipelines Bot"
-            git status
+            git add -A
+            git stash
+            git checkout gh-pages
+            git checkout stash -- composer
             if [[ -n $(git status -s) ]]
             then
-              git add -A
-              git stash
-              git checkout gh-pages
-              git checkout stash -- composer
               git commit -m "[skip ci] Update packages"
               git push https://$(pat)@github.com/pivvenit/acf-composer-bridge.git
             else
