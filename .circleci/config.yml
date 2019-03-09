@@ -7,6 +7,9 @@ jobs:
     steps:
       - checkout
       - run:
+          name: Run full checkout
+          command: git pull
+      - run:
           name: Generate repository
           command: php build.php
       - run:
