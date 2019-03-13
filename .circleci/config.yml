@@ -24,7 +24,7 @@ jobs:
             if [[ -n $(git status -s) ]]
             then
               git commit -m "[skip ci] Update packages"
-              git push https://$(pat)@github.com/pivvenit/acf-composer-bridge.git
+              git push https://$pat@github.com/pivvenit/acf-composer-bridge.git
             else
               echo "No changes in the repository"
             fi
