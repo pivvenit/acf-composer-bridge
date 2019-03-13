@@ -2,7 +2,7 @@
 
 const INSTALLER_VERSION = "2";
 
-$types = ["wpackagist-plugin", "wordpress-plugin", "wordpress-muplugin", "library"];
+$types = ["wpackagist-plugin", "wordpress-plugin", "wpackagist-muplugin", "wordpress-muplugin", "library"];
 
 function createPackage($tag, $keywords, $alias = null, $type = "wpackagist-plugin") {
     return [
