@@ -26,7 +26,7 @@ Use this version if you want ACF installed as MU-plugin.
 ```json
 {
   "type": "composer",
-  "url": "https://pivvenit.github.io/acf-composer-bridge/composer/v2/wpackagist-muplugin/"
+  "url": "https://pivvenit.github.io/acf-composer-bridge/composer/v2/wordpress-muplugin/"
 }
 ```
 
