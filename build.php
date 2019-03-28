@@ -36,7 +36,11 @@ function createPackage($tag, $keywords, $alias = null, $type = "wpackagist-plugi
 }
 
 // The url to retrieve all available Advanced Custom Fields packages from
-$response = file_get_contents("https://connect.advancedcustomfields.com/v2/plugins/get-info?p=pro");
+$response = @file_get_contents("https://connect.advancedcustomfields.com/v2/plugins/get-info?p=pro");
+if ($response === false) {
+    echo "Error retrieving package information";
+    die(1);
+}
 $json = json_decode($response);
 
 foreach ($types as $type) {
