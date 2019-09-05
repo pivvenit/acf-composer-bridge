@@ -1,5 +1,9 @@
 <?php
 
+set_error_handler(function ($errno, $errstr, $errfile, $errline ) {
+    throw new ErrorException($errstr, 0, $errno, $errfile, $errline);
+});
+
 const INSTALLER_VERSION = "2";
 
 $types = ["wpackagist-plugin", "wordpress-plugin", "wpackagist-muplugin", "wordpress-muplugin", "library"];
@@ -48,8 +52,13 @@ foreach ($types as $type) {
     $versions = [];
     $versions['dev-master'] = createPackage($json->version, 'dev-master', $type);
     $versions[$json->version] = createPackage($json->version,  null, $type);
-    foreach ($json->versions as $version) {
+    $availableVersions = $json->versions ?? [];
+    foreach ($availableVersions as $version) {
         $versions[$version] = createPackage($version, null, $type);
+    }
+    if (!is_array($availableVersions) || empty($availableVersions) || count($versions) == 2) {
+        echo "The list of packages is empty, probably the API has changed, not updating repository";
+        die(1);
     }
     $data['packages'] = (object)[
         "advanced-custom-fields/advanced-custom-fields-pro" => (object)$versions
