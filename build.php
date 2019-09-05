@@ -4,7 +4,7 @@ const INSTALLER_VERSION = "2";
 
 $types = ["wpackagist-plugin", "wordpress-plugin", "wpackagist-muplugin", "wordpress-muplugin", "library"];
 
-function createPackage($tag, $keywords, $alias = null, $type = "wpackagist-plugin") {
+function createPackage($tag, $alias = null, $type = "wpackagist-plugin") {
     return [
         "name" => "advanced-custom-fields/advanced-custom-fields-pro",
         "description" => "Advanced Custom Fields PRO",
@@ -24,7 +24,7 @@ function createPackage($tag, $keywords, $alias = null, $type = "wpackagist-plugi
             ]
         ],
         "homepage" => "https://www.advancedcustomfields.com/",
-        "keywords" => $keywords,
+        "keywords" => "acf, advanced, custom, field, fields, form, repeater, content",
         "dist" => (object)[
             "type" => "zip",
             "url" => "https://connect.advancedcustomfields.com/index.php?p=pro&a=download&t={$tag}"
@@ -46,10 +46,10 @@ $json = json_decode($response);
 foreach ($types as $type) {
     $data = [];
     $versions = [];
-    $versions['dev-master'] = createPackage($json->version, $json->tagged, 'dev-master', $type);
-    $versions[$json->version] = createPackage($json->version, $json->tagged, null, $type);
-    foreach ($json->tags as $tag) {
-        $versions[$tag] = createPackage($tag, $json->tagged, null, $type);
+    $versions['dev-master'] = createPackage($json->version, 'dev-master', $type);
+    $versions[$json->version] = createPackage($json->version,  null, $type);
+    foreach ($json->versions as $version) {
+        $versions[$version] = createPackage($version, null, $type);
     }
     $data['packages'] = (object)[
         "advanced-custom-fields/advanced-custom-fields-pro" => (object)$versions
