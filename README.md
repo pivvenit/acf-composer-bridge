@@ -5,6 +5,10 @@
 This repository acts as a bridge to use the excellent [Advanced Custom Fields Pro](https://www.advancedcustomfields.com/pro/)
 Wordpress plugin together with [Composer](https://getcomposer.org)/[Bedrock](https://roots.io/bedrock/).
 
+## Breaking change between v2 and V3 ##
+As `composer/installers` is added to the dependencies of all provided packages, the default installation folder is changed.
+It is recommended to switch to V3, but to ensure this does not break your code. [This composer manual page](https://getcomposer.org/doc/faqs/how-do-i-install-a-package-to-a-custom-path-for-my-framework.md) describes how to modify the install path.
+
 ## How to install
 **1. Add the desired repository to the repositories field in composer.json**
 
@@ -16,7 +20,7 @@ Use this version if you are unsure which version to use.
 ```json
 {
   "type": "composer",
-  "url": "https://pivvenit.github.io/acf-composer-bridge/composer/v2/wpackagist-plugin/"
+  "url": "https://pivvenit.github.io/acf-composer-bridge/composer/v3/wpackagist-plugin/"
 }
 ```
 
@@ -26,7 +30,7 @@ Use this version if you want ACF installed as MU-plugin.
 ```json
 {
   "type": "composer",
-  "url": "https://pivvenit.github.io/acf-composer-bridge/composer/v2/wordpress-muplugin/"
+  "url": "https://pivvenit.github.io/acf-composer-bridge/composer/v3/wordpress-muplugin/"
 }
 ```
 
@@ -36,7 +40,7 @@ Use this repository URL if you use the legacy `wordpress-plugin` plugin type.
 ```json
 {
   "type": "composer",
-  "url": "https://pivvenit.github.io/acf-composer-bridge/composer/v2/wordpress-plugin/"
+  "url": "https://pivvenit.github.io/acf-composer-bridge/composer/v3/wordpress-plugin/"
 }
 ```
 
@@ -47,7 +51,7 @@ To install the plugin in the `vendor` directory.
 ```json
 {
   "type": "composer",
-  "url": "https://pivvenit.github.io/acf-composer-bridge/composer/v2/library/"
+  "url": "https://pivvenit.github.io/acf-composer-bridge/composer/v3/library/"
 }
 ```
 
@@ -77,4 +81,4 @@ In order to append this license key to the files, [https://github.com/pivvenit/a
 This installer detects that you want to install advanced custom fields, and then appends the provided private key (via environment variable) to the actual download URL on ACF's servers (so the key is never send to this composer repository).
 
 ## Available versions
-See [https://pivvenit.github.io/acf-composer-bridge/composer/v2/wpackagist-plugin/packages.json](https://pivvenit.github.io/acf-composer-bridge/composer/v2/packages.json)
+See [https://pivvenit.github.io/acf-composer-bridge/composer/v3/wpackagist-plugin/packages.json](https://pivvenit.github.io/acf-composer-bridge/composer/v3/packages.json)

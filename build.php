@@ -5,10 +5,17 @@ set_error_handler(function ($errno, $errstr, $errfile, $errline ) {
 });
 
 const INSTALLER_VERSION = "2";
+$repoVersions = [2,3];
 
 $types = ["wpackagist-plugin", "wordpress-plugin", "wpackagist-muplugin", "wordpress-muplugin", "library"];
 
-function createPackage($tag, $alias = null, $type = "wpackagist-plugin") {
+function createPackage($tag, $alias = null, $type = "wpackagist-plugin", $repoVersion = 2) {
+    $dependencies = [
+        "pivvenit/acf-pro-installer" => "^".INSTALLER_VERSION
+    ];
+    if ($repoVersion == 3) {
+        $dependencies["composer/installers"] ="~1.0";
+    }
     return [
         "name" => "advanced-custom-fields/advanced-custom-fields-pro",
         "description" => "Advanced Custom Fields PRO",
@@ -33,9 +40,7 @@ function createPackage($tag, $alias = null, $type = "wpackagist-plugin") {
             "type" => "zip",
             "url" => "https://connect.advancedcustomfields.com/index.php?p=pro&a=download&t={$tag}"
         ],
-        "require" => (object)[
-            "pivvenit/acf-pro-installer" => "^".INSTALLER_VERSION
-        ]
+        "require" => (object)$dependencies
     ];
 }
 
@@ -47,29 +52,31 @@ if ($response === false) {
 }
 $json = json_decode($response);
 
-foreach ($types as $type) {
-    $data = [];
-    $versions = [];
-    $versions['dev-master'] = createPackage($json->version, 'dev-master', $type);
-    $versions[$json->version] = createPackage($json->version,  null, $type);
-    $availableVersions = $json->versions ?? [];
-    foreach ($availableVersions as $version) {
-        $versions[$version] = createPackage($version, null, $type);
-    }
-    if (!is_array($availableVersions) || empty($availableVersions) || count($versions) == 2) {
-        echo "The list of packages is empty, probably the API has changed, not updating repository";
-        die(1);
-    }
-    $data['packages'] = (object)[
-        "advanced-custom-fields/advanced-custom-fields-pro" => (object)$versions
-    ];
-    $output = json_encode((object)$data, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES);
-    $outputDir = __DIR__."/composer/v".INSTALLER_VERSION;
-    if (!is_dir($outputDir."/{$type}")) {
-        mkdir($outputDir."/{$type}", 0777, true);
-    }
-    file_put_contents("{$outputDir}/{$type}/packages.json", $output);
-    if ($type == "wpackagist-plugin") {
-        file_put_contents("{$outputDir}/packages.json", $output);
+foreach ($repoVersions as $repoVersion) {
+    foreach ($types as $type) {
+        $data = [];
+        $versions = [];
+        $versions['dev-master'] = createPackage($json->version, 'dev-master', $type, $repoVersion);
+        $versions[$json->version] = createPackage($json->version, null, $type, $repoVersion);
+        $availableVersions = $json->versions ?? [];
+        foreach ($availableVersions as $version) {
+            $versions[$version] = createPackage($version, null, $type, $repoVersion);
+        }
+        if (!is_array($availableVersions) || empty($availableVersions) || count($versions) == 2) {
+            echo "The list of packages is empty, probably the API has changed, not updating repository";
+            die(1);
+        }
+        $data['packages'] = (object)[
+            "advanced-custom-fields/advanced-custom-fields-pro" => (object)$versions
+        ];
+        $output = json_encode((object)$data, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES);
+        $outputDir = __DIR__ . "/composer/v" . $repoVersion;
+        if (!is_dir($outputDir . "/{$type}")) {
+            mkdir($outputDir . "/{$type}", 0777, true);
+        }
+        file_put_contents("{$outputDir}/{$type}/packages.json", $output);
+        if ($type == "wpackagist-plugin") {
+            file_put_contents("{$outputDir}/packages.json", $output);
+        }
     }
 }
