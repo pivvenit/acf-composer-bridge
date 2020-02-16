@@ -34,6 +34,10 @@ function createPackage($tag, $alias = null, $type = "wpackagist-plugin", $repoVe
                 "role" => "Composer Repository maintainer"
             ]
         ],
+        "support" => (object)[
+            "docs" => "https://www.advancedcustomfields.com/resources/",
+            "forum" => "https://support.advancedcustomfields.com/topics/"
+        ],
         "homepage" => "https://www.advancedcustomfields.com/",
         "keywords" => "acf, advanced, custom, field, fields, form, repeater, content",
         "dist" => (object)[
