@@ -28,7 +28,7 @@ jobs:
           if [[ -n $(git status -s) ]]
           then
             git commit -m "Update packages"
-            git push https://${GITHUB_ACTOR}:${{ secrets.GITHUB_TOKEN }}@github.com/${REPOSITORY}.git
+            git push https://${GITHUB_ACTOR}:${{ secrets.GITHUB_TOKEN }}@github.com/${GITHUB_REPOSITORY}.git
           else
             echo "No changes in the repository"
           fi
