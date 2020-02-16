@@ -19,7 +19,7 @@ jobs:
         run: php build.php
       - name: Deploy to github pages
         run: |
-          git config user.email "${{ secrets.BOT_USER }}"
+          git config user.email "${{ secrets.BOT_EMAIL }}"
           git config user.name "Github Action"
           git add -A
           git stash
@@ -28,7 +28,7 @@ jobs:
           if [[ -n $(git status -s) ]]
           then
             git commit -m "Update packages"
-            git push https://pivvenci:${{ secrets.GITHUB_TOKEN }}@github.com/${GITHUB_REPOSITORY}.git
+            git push https://${{ secrets.BOT_USER }}:${{ secrets.GITHUB_TOKEN }}@github.com/${GITHUB_REPOSITORY}.git
           else
             echo "No changes in the repository"
           fi
