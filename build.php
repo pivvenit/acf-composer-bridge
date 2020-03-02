@@ -42,7 +42,7 @@ function createPackage($tag, $alias = null, $type = "wpackagist-plugin", $repoVe
         "keywords" => "acf, advanced, custom, field, fields, form, repeater, content",
         "dist" => (object)[
             "type" => "zip",
-            "url" => "https://connect.advancedcustomfields.com/index.php?p=pro&a=download&t={$tag}"
+            "url" => "https://connect.advancedcustomfields.com/v2/plugins/download?p=pro&t={$tag}"
         ],
         "require" => (object)$dependencies
     ];
