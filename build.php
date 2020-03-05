@@ -11,11 +11,12 @@ $types = ["wpackagist-plugin", "wordpress-plugin", "wpackagist-muplugin", "wordp
 
 function createPackage($tag, $alias = null, $type = "wpackagist-plugin", $repoVersion = 2) {
     $dependencies = [
-        "pivvenit/acf-pro-installer" => "^".INSTALLER_VERSION
+        "pivvenit/acf-pro-installer" => getInstallerVersion($tag)
     ];
     if ($repoVersion == 3) {
         $dependencies["composer/installers"] ="~1.0";
     }
+    $downloadurl = getDownloadUrl($tag);
     return [
         "name" => "advanced-custom-fields/advanced-custom-fields-pro",
         "description" => "Advanced Custom Fields PRO",
@@ -42,10 +43,50 @@ function createPackage($tag, $alias = null, $type = "wpackagist-plugin", $repoVe
         "keywords" => "acf, advanced, custom, field, fields, form, repeater, content",
         "dist" => (object)[
             "type" => "zip",
-            "url" => "https://connect.advancedcustomfields.com/index.php?p=pro&a=download&t={$tag}"
+            "url" => "{$downloadurl}{$tag}"
         ],
         "require" => (object)$dependencies
     ];
+}
+
+/**
+ * @return string
+ */
+function getInstallerVersion($tag): string
+{
+    $semver = getSemver($tag);
+    ['major' => $major, 'minor' => $minor, 'patch' => $patch] = $semver;
+    if (((int)$major == 5 && (int)$minor < 8) || ((int)$major == 5 && (int)$minor == 8 && (int)$patch < 8)) {
+        return "^" . INSTALLER_VERSION;
+    }
+    return "^2.3.0";
+}
+
+/**
+ * @param $tag
+ * @return string
+ */
+function getDownloadUrl($tag): string
+{
+    $semver = getSemver($tag);
+    $downloadurl = "https://connect.advancedcustomfields.com/v2/plugins/download?p=pro&t=";
+    ['major' => $major, 'minor' => $minor, 'patch' => $patch] = $semver;
+    if (((int)$major == 5 && (int)$minor < 8) || ((int)$major == 5 && (int)$minor == 8 && (int)$patch < 8)) {
+        $downloadurl = "https://connect.advancedcustomfields.com/index.php?p=pro&a=download&t=";
+    }
+    return $downloadurl;
+}
+
+/**
+ * @param $tag
+ * @return array
+ */
+function getSemver($tag): array
+{
+    $matches = [];
+    preg_match('/^(?P<major>0|[1-9]\d*)\.(?P<minor>0|[1-9]\d*)\.(?P<patch>0|[1-9]\d*)(?:-(?P<prerelease>(?:0|[1-9]\d*|\d*[a-zA-Z-][0-9a-zA-Z-]*)(?:\.(?:0|[1-9]\d*|\d*[a-zA-Z-][0-9a-zA-Z-]*))*))?(?:\+(?P<buildmetadata>[0-9a-zA-Z-]+(?:\.[0-9a-zA-Z-]+)*))?$/m',
+        $tag, $matches);
+    return $matches;
 }
 
 // The url to retrieve all available Advanced Custom Fields packages from
