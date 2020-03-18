@@ -7,7 +7,7 @@ Wordpress plugin together with [Composer](https://getcomposer.org)/[Bedrock](htt
 
 ## Breaking change between v2 and V3 ##
 As `composer/installers` is added to the dependencies of all provided packages, the default installation folder is changed.
-It is recommended to switch to V3, but to ensure this does not break your code. [This composer manual page](https://getcomposer.org/doc/faqs/how-do-i-install-a-package-to-a-custom-path-for-my-framework.md) describes how to modify the install path.
+It is recommended to switch to V3, but *ensure ACF Pro ends up in the folder you except when installing* to ensure your code does not break. [This composer manual page](https://getcomposer.org/doc/faqs/how-do-i-install-a-package-to-a-custom-path-for-my-framework.md) describes how to modify the install path. You can find a few examples at the end of this readme.
 
 ## How to install
 **1. Add the desired repository to the repositories field in composer.json**
@@ -82,3 +82,55 @@ This installer detects that you want to install advanced custom fields, and then
 
 ## Available versions
 See [https://pivvenit.github.io/acf-composer-bridge/composer/v3/wpackagist-plugin/packages.json](https://pivvenit.github.io/acf-composer-bridge/composer/v3/packages.json)
+
+## Example(s)
+
+1. Installs ACF Pro as mu-plugin in web/app/mu-plugins/advanced-custom-fields-pro
+```json
+{
+  "name": "example/test",
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://pivvenit.github.io/acf-composer-bridge/composer/v3/wordpress-muplugin/"
+    },
+    {
+      "type": "composer",
+      "url": "https://wpackagist.org"
+    }
+  ],
+  "require": {
+    "advanced-custom-fields/advanced-custom-fields-pro": "^5.8.8"
+  },
+  "extra": {
+    "installer-paths": {
+      "web/app/mu-plugins/{$name}/": ["type:wordpress-muplugin"]
+    }
+  }
+}
+```
+
+2. Installs ACF Pro as plugin in wp-content/plugins/advanced-custom-fields-pro
+```json
+{
+    "name": "example/test",
+    "repositories": [
+      {
+        "type": "composer",
+        "url": "https://pivvenit.github.io/acf-composer-bridge/composer/v3/wordpress-plugin/"
+      },
+      {
+        "type": "composer",
+        "url": "https://wpackagist.org"
+      }
+    ],
+    "require": {
+      "advanced-custom-fields/advanced-custom-fields-pro": "^5.8.8"
+    },
+    "extra": {
+      "installer-paths": {
+        "wp-content/plugins/{$name}/": ["type:wordpress-plugin"]
+      }
+    }
+  }
+```
