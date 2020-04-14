@@ -20,10 +20,9 @@ Use this version if you are unsure which version to use.
 ```json
 {
   "type": "composer",
-  "url": "https://pivvenit.github.io/acf-composer-bridge/composer/v3/wpackagist-plugin/"
+  "url": "https://pivvenit.github.io/acf-composer-bridge/composer/v3/wordpress-plugin/"
 }
 ```
-
 ***Wordpress Packagist Must-Use plugin***
 
 Use this version if you want ACF installed as MU-plugin.
@@ -34,13 +33,13 @@ Use this version if you want ACF installed as MU-plugin.
 }
 ```
 
-***Wordpress Legacy Packagist plugin***
+***Wordpress wpackagist plugin type***
 
-Use this repository URL if you use the legacy `wordpress-plugin` plugin type.
+Use this repository URL if you use the (seemingly deprecated) `wpackagist-plugin` plugin type.
 ```json
 {
   "type": "composer",
-  "url": "https://pivvenit.github.io/acf-composer-bridge/composer/v3/wordpress-plugin/"
+  "url": "https://pivvenit.github.io/acf-composer-bridge/composer/v3/wpackagist-plugin/"
 }
 ```
 
