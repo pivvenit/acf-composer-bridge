@@ -65,10 +65,10 @@
                     "pivvenit/acf-pro-installer": "^2.3.0"
                 }
             },
-            "5.8.9-RC1": {
+            "5.9.0-beta1": {
                 "name": "advanced-custom-fields/advanced-custom-fields-pro",
                 "description": "Advanced Custom Fields PRO",
-                "version": "5.8.9-RC1",
+                "version": "5.9.0-beta1",
                 "type": "library",
                 "license": "GPL-2.0-or-later",
                 "authors": [
@@ -91,7 +91,7 @@
                 "keywords": "acf, advanced, custom, field, fields, form, repeater, content",
                 "dist": {
                     "type": "zip",
-                    "url": "https://connect.advancedcustomfields.com/v2/plugins/download?p=pro&t=5.8.9-RC1"
+                    "url": "https://connect.advancedcustomfields.com/v2/plugins/download?p=pro&t=5.9.0-beta1"
                 },
                 "require": {
                     "pivvenit/acf-pro-installer": "^2.3.0"
