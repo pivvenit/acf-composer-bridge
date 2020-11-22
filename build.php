@@ -59,7 +59,7 @@ function getInstallerVersion($tag): string
     if (((int)$major == 5 && (int)$minor < 8) || ((int)$major == 5 && (int)$minor == 8 && (int)$patch < 8)) {
         return "^" . INSTALLER_VERSION;
     }
-    return "^2.4.0";
+    return "^2.4.0 || ^3.0";
 }
 
 /**
