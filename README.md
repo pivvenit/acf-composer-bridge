@@ -5,6 +5,14 @@
 This repository acts as a bridge to use the excellent [Advanced Custom Fields Pro](https://www.advancedcustomfields.com/pro/)
 Wordpress plugin together with [Composer](https://getcomposer.org)/[Bedrock](https://roots.io/bedrock/).
 
+## :warning: Native Dependabot warning :warning: ##
+Dependabot Preview will be shut down on August 3rd, 2021 and will be replaced by the new Dependabot integration.
+However, this new integration does not support environment variables that are used by [our acf-pro-installer](https://github.com/pivvenit/acf-pro-installer).
+
+We have created a (temporary) workaround for this use case: https://github.com/pivvenit/acf-pro-installer/issues/222#issuecomment-890359373.
+To summarise, we've published an authenticated Composer repository that uses the licensekey you provide via Basic authentication to download the file from ACF's server.
+The status of this workaround will be updated in the issue mentioned above.
+
 ## Breaking change between v2 and V3 ##
 As `composer/installers` is added to the dependencies of all provided packages, the default installation folder is changed.
 It is recommended to switch to V3, but *ensure ACF Pro ends up in the folder you except when installing* to ensure your code does not break. [This composer manual page](https://getcomposer.org/doc/faqs/how-do-i-install-a-package-to-a-custom-path-for-my-framework.md) describes how to modify the install path. You can find a few examples at the end of this readme.
@@ -74,7 +82,7 @@ composer require advanced-custom-fields/advanced-custom-fields-pro
 ## How does it work
 This Github repository is a 'Composer repository'.
 Actually a composer repository is simply a packages.json served from a webserver.
-This repository uses [CircleCI](https://circleci.com/gh/pivvenit/acf-composer-bridge/) to periodically create a packages.json that references 
+This repository uses Github Actions to periodically create a packages.json that references 
 the files provided by ACF. Please note that these files require a valid license key that is **not provided** by this repository.
 In order to append this license key to the files, [https://github.com/pivvenit/acf-pro-installer](https://github.com/pivvenit/acf-pro-installer) is used.
 This installer detects that you want to install advanced custom fields, and then appends the provided private key (via environment variable) to the actual download URL on ACF's servers (so the key is never send to this composer repository).
