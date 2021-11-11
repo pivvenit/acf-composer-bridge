@@ -2,6 +2,7 @@
 addEventListener('fetch', event => {
     event.respondWith(
       handleRequest(event.request).catch(err => {
+        console.error(err);
         const message = JSON.stringify({"code":"api_error","message": err.reason || err.stack || 'Unknown error',"data":{"status":err.status}});
   
         return new Response(message, {
