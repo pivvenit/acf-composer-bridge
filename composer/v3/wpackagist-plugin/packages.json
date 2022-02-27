@@ -31,7 +31,7 @@
                 },
                 "require": {
                     "pivvenit/acf-pro-installer": "^2.4.0 || ^3.0",
-                    "composer/installers": "~1.0"
+                    "composer/installers": "^1.0 || ^2.0"
                 }
             },
             "5.12": {
@@ -64,7 +64,7 @@
                 },
                 "require": {
                     "pivvenit/acf-pro-installer": "^2.4.0 || ^3.0",
-                    "composer/installers": "~1.0"
+                    "composer/installers": "^1.0 || ^2.0"
                 }
             },
             "5.9.9": {
@@ -97,7 +97,7 @@
                 },
                 "require": {
                     "pivvenit/acf-pro-installer": "^2.4.0 || ^3.0",
-                    "composer/installers": "~1.0"
+                    "composer/installers": "^1.0 || ^2.0"
                 }
             },
             "5.9.8": {
@@ -130,7 +130,7 @@
                 },
                 "require": {
                     "pivvenit/acf-pro-installer": "^2.4.0 || ^3.0",
-                    "composer/installers": "~1.0"
+                    "composer/installers": "^1.0 || ^2.0"
                 }
             },
             "5.9.7": {
@@ -163,7 +163,7 @@
                 },
                 "require": {
                     "pivvenit/acf-pro-installer": "^2.4.0 || ^3.0",
-                    "composer/installers": "~1.0"
+                    "composer/installers": "^1.0 || ^2.0"
                 }
             },
             "5.9.6": {
@@ -196,7 +196,7 @@
                 },
                 "require": {
                     "pivvenit/acf-pro-installer": "^2.4.0 || ^3.0",
-                    "composer/installers": "~1.0"
+                    "composer/installers": "^1.0 || ^2.0"
                 }
             },
             "5.9.5": {
@@ -229,7 +229,7 @@
                 },
                 "require": {
                     "pivvenit/acf-pro-installer": "^2.4.0 || ^3.0",
-                    "composer/installers": "~1.0"
+                    "composer/installers": "^1.0 || ^2.0"
                 }
             },
             "5.9.4": {
@@ -262,7 +262,7 @@
                 },
                 "require": {
                     "pivvenit/acf-pro-installer": "^2.4.0 || ^3.0",
-                    "composer/installers": "~1.0"
+                    "composer/installers": "^1.0 || ^2.0"
                 }
             },
             "5.9.3": {
@@ -295,7 +295,7 @@
                 },
                 "require": {
                     "pivvenit/acf-pro-installer": "^2.4.0 || ^3.0",
-                    "composer/installers": "~1.0"
+                    "composer/installers": "^1.0 || ^2.0"
                 }
             },
             "5.9.2": {
@@ -328,7 +328,7 @@
                 },
                 "require": {
                     "pivvenit/acf-pro-installer": "^2.4.0 || ^3.0",
-                    "composer/installers": "~1.0"
+                    "composer/installers": "^1.0 || ^2.0"
                 }
             },
             "5.9.1": {
@@ -361,7 +361,7 @@
                 },
                 "require": {
                     "pivvenit/acf-pro-installer": "^2.4.0 || ^3.0",
-                    "composer/installers": "~1.0"
+                    "composer/installers": "^1.0 || ^2.0"
                 }
             },
             "5.9.0-beta5": {
@@ -394,7 +394,7 @@
                 },
                 "require": {
                     "pivvenit/acf-pro-installer": "^2.4.0 || ^3.0",
-                    "composer/installers": "~1.0"
+                    "composer/installers": "^1.0 || ^2.0"
                 }
             },
             "5.9.0-beta4": {
@@ -427,7 +427,7 @@
                 },
                 "require": {
                     "pivvenit/acf-pro-installer": "^2.4.0 || ^3.0",
-                    "composer/installers": "~1.0"
+                    "composer/installers": "^1.0 || ^2.0"
                 }
             },
             "5.9.0-beta3": {
@@ -460,7 +460,7 @@
                 },
                 "require": {
                     "pivvenit/acf-pro-installer": "^2.4.0 || ^3.0",
-                    "composer/installers": "~1.0"
+                    "composer/installers": "^1.0 || ^2.0"
                 }
             },
             "5.9.0-beta2": {
@@ -493,7 +493,7 @@
                 },
                 "require": {
                     "pivvenit/acf-pro-installer": "^2.4.0 || ^3.0",
-                    "composer/installers": "~1.0"
+                    "composer/installers": "^1.0 || ^2.0"
                 }
             },
             "5.9.0-beta1": {
@@ -526,7 +526,7 @@
                 },
                 "require": {
                     "pivvenit/acf-pro-installer": "^2.4.0 || ^3.0",
-                    "composer/installers": "~1.0"
+                    "composer/installers": "^1.0 || ^2.0"
                 }
             },
             "5.9.0-RC1": {
@@ -559,7 +559,7 @@
                 },
                 "require": {
                     "pivvenit/acf-pro-installer": "^2.4.0 || ^3.0",
-                    "composer/installers": "~1.0"
+                    "composer/installers": "^1.0 || ^2.0"
                 }
             },
             "5.9.0": {
@@ -592,7 +592,7 @@
                 },
                 "require": {
                     "pivvenit/acf-pro-installer": "^2.4.0 || ^3.0",
-                    "composer/installers": "~1.0"
+                    "composer/installers": "^1.0 || ^2.0"
                 }
             },
             "5.8.9": {
@@ -625,7 +625,7 @@
                 },
                 "require": {
                     "pivvenit/acf-pro-installer": "^2.4.0 || ^3.0",
-                    "composer/installers": "~1.0"
+                    "composer/installers": "^1.0 || ^2.0"
                 }
             },
             "5.8.8": {
@@ -658,7 +658,7 @@
                 },
                 "require": {
                     "pivvenit/acf-pro-installer": "^2.4.0 || ^3.0",
-                    "composer/installers": "~1.0"
+                    "composer/installers": "^1.0 || ^2.0"
                 }
             },
             "5.8.7": {
@@ -691,7 +691,7 @@
                 },
                 "require": {
                     "pivvenit/acf-pro-installer": "^2",
-                    "composer/installers": "~1.0"
+                    "composer/installers": "^1.0 || ^2.0"
                 }
             },
             "5.8.6": {
@@ -724,7 +724,7 @@
                 },
                 "require": {
                     "pivvenit/acf-pro-installer": "^2",
-                    "composer/installers": "~1.0"
+                    "composer/installers": "^1.0 || ^2.0"
                 }
             },
             "5.8.5": {
@@ -757,7 +757,7 @@
                 },
                 "require": {
                     "pivvenit/acf-pro-installer": "^2",
-                    "composer/installers": "~1.0"
+                    "composer/installers": "^1.0 || ^2.0"
                 }
             },
             "5.8.4": {
@@ -790,7 +790,7 @@
                 },
                 "require": {
                     "pivvenit/acf-pro-installer": "^2",
-                    "composer/installers": "~1.0"
+                    "composer/installers": "^1.0 || ^2.0"
                 }
             },
             "5.8.3": {
@@ -823,7 +823,7 @@
                 },
                 "require": {
                     "pivvenit/acf-pro-installer": "^2",
-                    "composer/installers": "~1.0"
+                    "composer/installers": "^1.0 || ^2.0"
                 }
             },
             "5.8.2": {
@@ -856,7 +856,7 @@
                 },
                 "require": {
                     "pivvenit/acf-pro-installer": "^2",
-                    "composer/installers": "~1.0"
+                    "composer/installers": "^1.0 || ^2.0"
                 }
             },
             "5.8.14": {
@@ -889,7 +889,7 @@
                 },
                 "require": {
                     "pivvenit/acf-pro-installer": "^2.4.0 || ^3.0",
-                    "composer/installers": "~1.0"
+                    "composer/installers": "^1.0 || ^2.0"
                 }
             },
             "5.8.13": {
@@ -922,7 +922,7 @@
                 },
                 "require": {
                     "pivvenit/acf-pro-installer": "^2.4.0 || ^3.0",
-                    "composer/installers": "~1.0"
+                    "composer/installers": "^1.0 || ^2.0"
                 }
             },
             "5.8.12": {
@@ -955,7 +955,7 @@
                 },
                 "require": {
                     "pivvenit/acf-pro-installer": "^2.4.0 || ^3.0",
-                    "composer/installers": "~1.0"
+                    "composer/installers": "^1.0 || ^2.0"
                 }
             },
             "5.8.11": {
@@ -988,7 +988,7 @@
                 },
                 "require": {
                     "pivvenit/acf-pro-installer": "^2.4.0 || ^3.0",
-                    "composer/installers": "~1.0"
+                    "composer/installers": "^1.0 || ^2.0"
                 }
             },
             "5.8.1": {
@@ -1021,7 +1021,7 @@
                 },
                 "require": {
                     "pivvenit/acf-pro-installer": "^2",
-                    "composer/installers": "~1.0"
+                    "composer/installers": "^1.0 || ^2.0"
                 }
             },
             "5.8.0-beta4.1": {
@@ -1054,7 +1054,7 @@
                 },
                 "require": {
                     "pivvenit/acf-pro-installer": "^2",
-                    "composer/installers": "~1.0"
+                    "composer/installers": "^1.0 || ^2.0"
                 }
             },
             "5.8.0-beta4": {
@@ -1087,7 +1087,7 @@
                 },
                 "require": {
                     "pivvenit/acf-pro-installer": "^2",
-                    "composer/installers": "~1.0"
+                    "composer/installers": "^1.0 || ^2.0"
                 }
             },
             "5.8.0-beta3": {
@@ -1120,7 +1120,7 @@
                 },
                 "require": {
                     "pivvenit/acf-pro-installer": "^2",
-                    "composer/installers": "~1.0"
+                    "composer/installers": "^1.0 || ^2.0"
                 }
             },
             "5.8.0-beta2": {
@@ -1153,7 +1153,7 @@
                 },
                 "require": {
                     "pivvenit/acf-pro-installer": "^2",
-                    "composer/installers": "~1.0"
+                    "composer/installers": "^1.0 || ^2.0"
                 }
             },
             "5.8.0-beta1": {
@@ -1186,7 +1186,7 @@
                 },
                 "require": {
                     "pivvenit/acf-pro-installer": "^2",
-                    "composer/installers": "~1.0"
+                    "composer/installers": "^1.0 || ^2.0"
                 }
             },
             "5.8.0-RC2": {
@@ -1219,7 +1219,7 @@
                 },
                 "require": {
                     "pivvenit/acf-pro-installer": "^2",
-                    "composer/installers": "~1.0"
+                    "composer/installers": "^1.0 || ^2.0"
                 }
             },
             "5.8.0-RC1": {
@@ -1252,7 +1252,7 @@
                 },
                 "require": {
                     "pivvenit/acf-pro-installer": "^2",
-                    "composer/installers": "~1.0"
+                    "composer/installers": "^1.0 || ^2.0"
                 }
             },
             "5.8.0": {
@@ -1285,7 +1285,7 @@
                 },
                 "require": {
                     "pivvenit/acf-pro-installer": "^2",
-                    "composer/installers": "~1.0"
+                    "composer/installers": "^1.0 || ^2.0"
                 }
             },
             "5.7.9": {
@@ -1318,7 +1318,7 @@
                 },
                 "require": {
                     "pivvenit/acf-pro-installer": "^2",
-                    "composer/installers": "~1.0"
+                    "composer/installers": "^1.0 || ^2.0"
                 }
             },
             "5.7.8": {
@@ -1351,7 +1351,7 @@
                 },
                 "require": {
                     "pivvenit/acf-pro-installer": "^2",
-                    "composer/installers": "~1.0"
+                    "composer/installers": "^1.0 || ^2.0"
                 }
             },
             "5.7.7": {
@@ -1384,7 +1384,7 @@
                 },
                 "require": {
                     "pivvenit/acf-pro-installer": "^2",
-                    "composer/installers": "~1.0"
+                    "composer/installers": "^1.0 || ^2.0"
                 }
             },
             "5.7.6": {
@@ -1417,7 +1417,7 @@
                 },
                 "require": {
                     "pivvenit/acf-pro-installer": "^2",
-                    "composer/installers": "~1.0"
+                    "composer/installers": "^1.0 || ^2.0"
                 }
             },
             "5.7.5": {
@@ -1450,7 +1450,7 @@
                 },
                 "require": {
                     "pivvenit/acf-pro-installer": "^2",
-                    "composer/installers": "~1.0"
+                    "composer/installers": "^1.0 || ^2.0"
                 }
             },
             "5.7.4": {
@@ -1483,7 +1483,7 @@
                 },
                 "require": {
                     "pivvenit/acf-pro-installer": "^2",
-                    "composer/installers": "~1.0"
+                    "composer/installers": "^1.0 || ^2.0"
                 }
             },
             "5.7.3": {
@@ -1516,7 +1516,7 @@
                 },
                 "require": {
                     "pivvenit/acf-pro-installer": "^2",
-                    "composer/installers": "~1.0"
+                    "composer/installers": "^1.0 || ^2.0"
                 }
             },
             "5.7.2": {
@@ -1549,7 +1549,7 @@
                 },
                 "require": {
                     "pivvenit/acf-pro-installer": "^2",
-                    "composer/installers": "~1.0"
+                    "composer/installers": "^1.0 || ^2.0"
                 }
             },
             "5.7.13": {
@@ -1582,7 +1582,7 @@
                 },
                 "require": {
                     "pivvenit/acf-pro-installer": "^2",
-                    "composer/installers": "~1.0"
+                    "composer/installers": "^1.0 || ^2.0"
                 }
             },
             "5.7.12": {
@@ -1615,7 +1615,7 @@
                 },
                 "require": {
                     "pivvenit/acf-pro-installer": "^2",
-                    "composer/installers": "~1.0"
+                    "composer/installers": "^1.0 || ^2.0"
                 }
             },
             "5.7.10": {
@@ -1648,7 +1648,7 @@
                 },
                 "require": {
                     "pivvenit/acf-pro-installer": "^2",
-                    "composer/installers": "~1.0"
+                    "composer/installers": "^1.0 || ^2.0"
                 }
             },
             "5.7.1": {
@@ -1681,7 +1681,7 @@
                 },
                 "require": {
                     "pivvenit/acf-pro-installer": "^2",
-                    "composer/installers": "~1.0"
+                    "composer/installers": "^1.0 || ^2.0"
                 }
             },
             "5.7.0": {
@@ -1714,7 +1714,7 @@
                 },
                 "require": {
                     "pivvenit/acf-pro-installer": "^2",
-                    "composer/installers": "~1.0"
+                    "composer/installers": "^1.0 || ^2.0"
                 }
             },
             "5.6.9": {
@@ -1747,7 +1747,7 @@
                 },
                 "require": {
                     "pivvenit/acf-pro-installer": "^2",
-                    "composer/installers": "~1.0"
+                    "composer/installers": "^1.0 || ^2.0"
                 }
             },
             "5.6.8": {
@@ -1780,7 +1780,7 @@
                 },
                 "require": {
                     "pivvenit/acf-pro-installer": "^2",
-                    "composer/installers": "~1.0"
+                    "composer/installers": "^1.0 || ^2.0"
                 }
             },
             "5.6.7": {
@@ -1813,7 +1813,7 @@
                 },
                 "require": {
                     "pivvenit/acf-pro-installer": "^2",
-                    "composer/installers": "~1.0"
+                    "composer/installers": "^1.0 || ^2.0"
                 }
             },
             "5.6.6": {
@@ -1846,7 +1846,7 @@
                 },
                 "require": {
                     "pivvenit/acf-pro-installer": "^2",
-                    "composer/installers": "~1.0"
+                    "composer/installers": "^1.0 || ^2.0"
                 }
             },
             "5.6.5": {
@@ -1879,7 +1879,7 @@
                 },
                 "require": {
                     "pivvenit/acf-pro-installer": "^2",
-                    "composer/installers": "~1.0"
+                    "composer/installers": "^1.0 || ^2.0"
                 }
             },
             "5.6.4": {
@@ -1912,7 +1912,7 @@
                 },
                 "require": {
                     "pivvenit/acf-pro-installer": "^2",
-                    "composer/installers": "~1.0"
+                    "composer/installers": "^1.0 || ^2.0"
                 }
             },
             "5.6.3": {
@@ -1945,7 +1945,7 @@
                 },
                 "require": {
                     "pivvenit/acf-pro-installer": "^2",
-                    "composer/installers": "~1.0"
+                    "composer/installers": "^1.0 || ^2.0"
                 }
             },
             "5.6.2": {
@@ -1978,7 +1978,7 @@
                 },
                 "require": {
                     "pivvenit/acf-pro-installer": "^2",
-                    "composer/installers": "~1.0"
+                    "composer/installers": "^1.0 || ^2.0"
                 }
             },
             "5.6.10": {
@@ -2011,7 +2011,7 @@
                 },
                 "require": {
                     "pivvenit/acf-pro-installer": "^2",
-                    "composer/installers": "~1.0"
+                    "composer/installers": "^1.0 || ^2.0"
                 }
             },
             "5.6.1": {
@@ -2044,7 +2044,7 @@
                 },
                 "require": {
                     "pivvenit/acf-pro-installer": "^2",
-                    "composer/installers": "~1.0"
+                    "composer/installers": "^1.0 || ^2.0"
                 }
             },
             "5.6.0-beta2": {
@@ -2077,7 +2077,7 @@
                 },
                 "require": {
                     "pivvenit/acf-pro-installer": "^2",
-                    "composer/installers": "~1.0"
+                    "composer/installers": "^1.0 || ^2.0"
                 }
             },
             "5.6.0-beta1": {
@@ -2110,7 +2110,7 @@
                 },
                 "require": {
                     "pivvenit/acf-pro-installer": "^2",
-                    "composer/installers": "~1.0"
+                    "composer/installers": "^1.0 || ^2.0"
                 }
             },
             "5.6.0-RC2": {
@@ -2143,7 +2143,7 @@
                 },
                 "require": {
                     "pivvenit/acf-pro-installer": "^2",
-                    "composer/installers": "~1.0"
+                    "composer/installers": "^1.0 || ^2.0"
                 }
             },
             "5.6.0-RC1": {
@@ -2176,7 +2176,7 @@
                 },
                 "require": {
                     "pivvenit/acf-pro-installer": "^2",
-                    "composer/installers": "~1.0"
+                    "composer/installers": "^1.0 || ^2.0"
                 }
             },
             "5.6.0": {
@@ -2209,7 +2209,7 @@
                 },
                 "require": {
                     "pivvenit/acf-pro-installer": "^2",
-                    "composer/installers": "~1.0"
+                    "composer/installers": "^1.0 || ^2.0"
                 }
             },
             "5.5.9": {
@@ -2242,7 +2242,7 @@
                 },
                 "require": {
                     "pivvenit/acf-pro-installer": "^2",
-                    "composer/installers": "~1.0"
+                    "composer/installers": "^1.0 || ^2.0"
                 }
             },
             "5.5.7": {
@@ -2275,7 +2275,7 @@
                 },
                 "require": {
                     "pivvenit/acf-pro-installer": "^2",
-                    "composer/installers": "~1.0"
+                    "composer/installers": "^1.0 || ^2.0"
                 }
             },
             "5.5.5": {
@@ -2308,7 +2308,7 @@
                 },
                 "require": {
                     "pivvenit/acf-pro-installer": "^2",
-                    "composer/installers": "~1.0"
+                    "composer/installers": "^1.0 || ^2.0"
                 }
             },
             "5.5.3": {
@@ -2341,7 +2341,7 @@
                 },
                 "require": {
                     "pivvenit/acf-pro-installer": "^2",
-                    "composer/installers": "~1.0"
+                    "composer/installers": "^1.0 || ^2.0"
                 }
             },
             "5.5.2": {
@@ -2374,7 +2374,7 @@
                 },
                 "require": {
                     "pivvenit/acf-pro-installer": "^2",
-                    "composer/installers": "~1.0"
+                    "composer/installers": "^1.0 || ^2.0"
                 }
             },
             "5.5.14": {
@@ -2407,7 +2407,7 @@
                 },
                 "require": {
                     "pivvenit/acf-pro-installer": "^2",
-                    "composer/installers": "~1.0"
+                    "composer/installers": "^1.0 || ^2.0"
                 }
             },
             "5.5.13": {
@@ -2440,7 +2440,7 @@
                 },
                 "require": {
                     "pivvenit/acf-pro-installer": "^2",
-                    "composer/installers": "~1.0"
+                    "composer/installers": "^1.0 || ^2.0"
                 }
             },
             "5.5.12": {
@@ -2473,7 +2473,7 @@
                 },
                 "require": {
                     "pivvenit/acf-pro-installer": "^2",
-                    "composer/installers": "~1.0"
+                    "composer/installers": "^1.0 || ^2.0"
                 }
             },
             "5.5.11": {
@@ -2506,7 +2506,7 @@
                 },
                 "require": {
                     "pivvenit/acf-pro-installer": "^2",
-                    "composer/installers": "~1.0"
+                    "composer/installers": "^1.0 || ^2.0"
                 }
             },
             "5.5.10": {
@@ -2539,7 +2539,7 @@
                 },
                 "require": {
                     "pivvenit/acf-pro-installer": "^2",
-                    "composer/installers": "~1.0"
+                    "composer/installers": "^1.0 || ^2.0"
                 }
             },
             "5.5.1": {
@@ -2572,7 +2572,7 @@
                 },
                 "require": {
                     "pivvenit/acf-pro-installer": "^2",
-                    "composer/installers": "~1.0"
+                    "composer/installers": "^1.0 || ^2.0"
                 }
             },
             "5.5.0": {
@@ -2605,7 +2605,7 @@
                 },
                 "require": {
                     "pivvenit/acf-pro-installer": "^2",
-                    "composer/installers": "~1.0"
+                    "composer/installers": "^1.0 || ^2.0"
                 }
             },
             "5.4.8": {
@@ -2638,7 +2638,7 @@
                 },
                 "require": {
                     "pivvenit/acf-pro-installer": "^2",
-                    "composer/installers": "~1.0"
+                    "composer/installers": "^1.0 || ^2.0"
                 }
             },
             "5.4.7": {
@@ -2671,7 +2671,7 @@
                 },
                 "require": {
                     "pivvenit/acf-pro-installer": "^2",
-                    "composer/installers": "~1.0"
+                    "composer/installers": "^1.0 || ^2.0"
                 }
             },
             "5.4.6": {
@@ -2704,7 +2704,7 @@
                 },
                 "require": {
                     "pivvenit/acf-pro-installer": "^2",
-                    "composer/installers": "~1.0"
+                    "composer/installers": "^1.0 || ^2.0"
                 }
             },
             "5.4.5": {
@@ -2737,7 +2737,7 @@
                 },
                 "require": {
                     "pivvenit/acf-pro-installer": "^2",
-                    "composer/installers": "~1.0"
+                    "composer/installers": "^1.0 || ^2.0"
                 }
             },
             "5.4.4": {
@@ -2770,7 +2770,7 @@
                 },
                 "require": {
                     "pivvenit/acf-pro-installer": "^2",
-                    "composer/installers": "~1.0"
+                    "composer/installers": "^1.0 || ^2.0"
                 }
             },
             "5.4.3": {
@@ -2803,7 +2803,7 @@
                 },
                 "require": {
                     "pivvenit/acf-pro-installer": "^2",
-                    "composer/installers": "~1.0"
+                    "composer/installers": "^1.0 || ^2.0"
                 }
             },
             "5.4.2": {
@@ -2836,7 +2836,7 @@
                 },
                 "require": {
                     "pivvenit/acf-pro-installer": "^2",
-                    "composer/installers": "~1.0"
+                    "composer/installers": "^1.0 || ^2.0"
                 }
             },
             "5.4.1": {
@@ -2869,7 +2869,7 @@
                 },
                 "require": {
                     "pivvenit/acf-pro-installer": "^2",
-                    "composer/installers": "~1.0"
+                    "composer/installers": "^1.0 || ^2.0"
                 }
             },
             "5.4.0": {
@@ -2902,7 +2902,7 @@
                 },
                 "require": {
                     "pivvenit/acf-pro-installer": "^2",
-                    "composer/installers": "~1.0"
+                    "composer/installers": "^1.0 || ^2.0"
                 }
             },
             "5.3.9": {
@@ -2935,7 +2935,7 @@
                 },
                 "require": {
                     "pivvenit/acf-pro-installer": "^2",
-                    "composer/installers": "~1.0"
+                    "composer/installers": "^1.0 || ^2.0"
                 }
             },
             "5.3.8": {
@@ -2968,7 +2968,7 @@
                 },
                 "require": {
                     "pivvenit/acf-pro-installer": "^2",
-                    "composer/installers": "~1.0"
+                    "composer/installers": "^1.0 || ^2.0"
                 }
             },
             "5.3.7": {
@@ -3001,7 +3001,7 @@
                 },
                 "require": {
                     "pivvenit/acf-pro-installer": "^2",
-                    "composer/installers": "~1.0"
+                    "composer/installers": "^1.0 || ^2.0"
                 }
             },
             "5.3.6": {
@@ -3034,7 +3034,7 @@
                 },
                 "require": {
                     "pivvenit/acf-pro-installer": "^2",
-                    "composer/installers": "~1.0"
+                    "composer/installers": "^1.0 || ^2.0"
                 }
             },
             "5.3.5": {
@@ -3067,7 +3067,7 @@
                 },
                 "require": {
                     "pivvenit/acf-pro-installer": "^2",
-                    "composer/installers": "~1.0"
+                    "composer/installers": "^1.0 || ^2.0"
                 }
             },
             "5.3.4": {
@@ -3100,7 +3100,7 @@
                 },
                 "require": {
                     "pivvenit/acf-pro-installer": "^2",
-                    "composer/installers": "~1.0"
+                    "composer/installers": "^1.0 || ^2.0"
                 }
             },
             "5.3.3": {
@@ -3133,7 +3133,7 @@
                 },
                 "require": {
                     "pivvenit/acf-pro-installer": "^2",
-                    "composer/installers": "~1.0"
+                    "composer/installers": "^1.0 || ^2.0"
                 }
             },
             "5.3.2": {
@@ -3166,7 +3166,7 @@
                 },
                 "require": {
                     "pivvenit/acf-pro-installer": "^2",
-                    "composer/installers": "~1.0"
+                    "composer/installers": "^1.0 || ^2.0"
                 }
             },
             "5.3.10": {
@@ -3199,7 +3199,7 @@
                 },
                 "require": {
                     "pivvenit/acf-pro-installer": "^2",
-                    "composer/installers": "~1.0"
+                    "composer/installers": "^1.0 || ^2.0"
                 }
             },
             "5.3.1": {
@@ -3232,7 +3232,7 @@
                 },
                 "require": {
                     "pivvenit/acf-pro-installer": "^2",
-                    "composer/installers": "~1.0"
+                    "composer/installers": "^1.0 || ^2.0"
                 }
             },
             "5.3.0": {
@@ -3265,7 +3265,7 @@
                 },
                 "require": {
                     "pivvenit/acf-pro-installer": "^2",
-                    "composer/installers": "~1.0"
+                    "composer/installers": "^1.0 || ^2.0"
                 }
             },
             "5.2.9": {
@@ -3298,7 +3298,7 @@
                 },
                 "require": {
                     "pivvenit/acf-pro-installer": "^2",
-                    "composer/installers": "~1.0"
+                    "composer/installers": "^1.0 || ^2.0"
                 }
             },
             "5.2.8": {
@@ -3331,7 +3331,7 @@
                 },
                 "require": {
                     "pivvenit/acf-pro-installer": "^2",
-                    "composer/installers": "~1.0"
+                    "composer/installers": "^1.0 || ^2.0"
                 }
             },
             "5.2.7": {
@@ -3364,7 +3364,7 @@
                 },
                 "require": {
                     "pivvenit/acf-pro-installer": "^2",
-                    "composer/installers": "~1.0"
+                    "composer/installers": "^1.0 || ^2.0"
                 }
             },
             "5.2.6": {
@@ -3397,7 +3397,7 @@
                 },
                 "require": {
                     "pivvenit/acf-pro-installer": "^2",
-                    "composer/installers": "~1.0"
+                    "composer/installers": "^1.0 || ^2.0"
                 }
             },
             "5.2.5": {
@@ -3430,7 +3430,7 @@
                 },
                 "require": {
                     "pivvenit/acf-pro-installer": "^2",
-                    "composer/installers": "~1.0"
+                    "composer/installers": "^1.0 || ^2.0"
                 }
             },
             "5.2.4": {
@@ -3463,7 +3463,7 @@
                 },
                 "require": {
                     "pivvenit/acf-pro-installer": "^2",
-                    "composer/installers": "~1.0"
+                    "composer/installers": "^1.0 || ^2.0"
                 }
             },
             "5.2.3": {
@@ -3496,7 +3496,7 @@
                 },
                 "require": {
                     "pivvenit/acf-pro-installer": "^2",
-                    "composer/installers": "~1.0"
+                    "composer/installers": "^1.0 || ^2.0"
                 }
             },
             "5.2.2": {
@@ -3529,7 +3529,7 @@
                 },
                 "require": {
                     "pivvenit/acf-pro-installer": "^2",
-                    "composer/installers": "~1.0"
+                    "composer/installers": "^1.0 || ^2.0"
                 }
             },
             "5.2.1": {
@@ -3562,7 +3562,7 @@
                 },
                 "require": {
                     "pivvenit/acf-pro-installer": "^2",
-                    "composer/installers": "~1.0"
+                    "composer/installers": "^1.0 || ^2.0"
                 }
             },
             "5.2.0": {
@@ -3595,7 +3595,7 @@
                 },
                 "require": {
                     "pivvenit/acf-pro-installer": "^2",
-                    "composer/installers": "~1.0"
+                    "composer/installers": "^1.0 || ^2.0"
                 }
             },
             "5.12-beta2": {
@@ -3628,7 +3628,7 @@
                 },
                 "require": {
                     "pivvenit/acf-pro-installer": "^2.4.0 || ^3.0",
-                    "composer/installers": "~1.0"
+                    "composer/installers": "^1.0 || ^2.0"
                 }
             },
             "5.12-beta1": {
@@ -3661,7 +3661,7 @@
                 },
                 "require": {
                     "pivvenit/acf-pro-installer": "^2.4.0 || ^3.0",
-                    "composer/installers": "~1.0"
+                    "composer/installers": "^1.0 || ^2.0"
                 }
             },
             "5.12-RC1": {
@@ -3694,7 +3694,7 @@
                 },
                 "require": {
                     "pivvenit/acf-pro-installer": "^2.4.0 || ^3.0",
-                    "composer/installers": "~1.0"
+                    "composer/installers": "^1.0 || ^2.0"
                 }
             },
             "5.11.4": {
@@ -3727,7 +3727,7 @@
                 },
                 "require": {
                     "pivvenit/acf-pro-installer": "^2.4.0 || ^3.0",
-                    "composer/installers": "~1.0"
+                    "composer/installers": "^1.0 || ^2.0"
                 }
             },
             "5.11.3": {
@@ -3760,7 +3760,7 @@
                 },
                 "require": {
                     "pivvenit/acf-pro-installer": "^2.4.0 || ^3.0",
-                    "composer/installers": "~1.0"
+                    "composer/installers": "^1.0 || ^2.0"
                 }
             },
             "5.11.2": {
@@ -3793,7 +3793,7 @@
                 },
                 "require": {
                     "pivvenit/acf-pro-installer": "^2.4.0 || ^3.0",
-                    "composer/installers": "~1.0"
+                    "composer/installers": "^1.0 || ^2.0"
                 }
             },
             "5.11.1": {
@@ -3826,7 +3826,7 @@
                 },
                 "require": {
                     "pivvenit/acf-pro-installer": "^2.4.0 || ^3.0",
-                    "composer/installers": "~1.0"
+                    "composer/installers": "^1.0 || ^2.0"
                 }
             },
             "5.11-RC1": {
@@ -3859,7 +3859,7 @@
                 },
                 "require": {
                     "pivvenit/acf-pro-installer": "^2.4.0 || ^3.0",
-                    "composer/installers": "~1.0"
+                    "composer/installers": "^1.0 || ^2.0"
                 }
             },
             "5.11": {
@@ -3892,7 +3892,7 @@
                 },
                 "require": {
                     "pivvenit/acf-pro-installer": "^2.4.0 || ^3.0",
-                    "composer/installers": "~1.0"
+                    "composer/installers": "^1.0 || ^2.0"
                 }
             },
             "5.10.2": {
@@ -3925,7 +3925,7 @@
                 },
                 "require": {
                     "pivvenit/acf-pro-installer": "^2.4.0 || ^3.0",
-                    "composer/installers": "~1.0"
+                    "composer/installers": "^1.0 || ^2.0"
                 }
             },
             "5.10.1": {
@@ -3958,7 +3958,7 @@
                 },
                 "require": {
                     "pivvenit/acf-pro-installer": "^2.4.0 || ^3.0",
-                    "composer/installers": "~1.0"
+                    "composer/installers": "^1.0 || ^2.0"
                 }
             },
             "5.10.0-RC2": {
@@ -3991,7 +3991,7 @@
                 },
                 "require": {
                     "pivvenit/acf-pro-installer": "^2.4.0 || ^3.0",
-                    "composer/installers": "~1.0"
+                    "composer/installers": "^1.0 || ^2.0"
                 }
             },
             "5.10.0-RC1": {
@@ -4024,7 +4024,7 @@
                 },
                 "require": {
                     "pivvenit/acf-pro-installer": "^2.4.0 || ^3.0",
-                    "composer/installers": "~1.0"
+                    "composer/installers": "^1.0 || ^2.0"
                 }
             },
             "5.10": {
@@ -4057,7 +4057,7 @@
                 },
                 "require": {
                     "pivvenit/acf-pro-installer": "^2.4.0 || ^3.0",
-                    "composer/installers": "~1.0"
+                    "composer/installers": "^1.0 || ^2.0"
                 }
             },
             "5.1.9": {
@@ -4090,7 +4090,7 @@
                 },
                 "require": {
                     "pivvenit/acf-pro-installer": "^2",
-                    "composer/installers": "~1.0"
+                    "composer/installers": "^1.0 || ^2.0"
                 }
             },
             "5.1.8": {
@@ -4123,7 +4123,7 @@
                 },
                 "require": {
                     "pivvenit/acf-pro-installer": "^2",
-                    "composer/installers": "~1.0"
+                    "composer/installers": "^1.0 || ^2.0"
                 }
             },
             "5.1.7": {
@@ -4156,7 +4156,7 @@
                 },
                 "require": {
                     "pivvenit/acf-pro-installer": "^2",
-                    "composer/installers": "~1.0"
+                    "composer/installers": "^1.0 || ^2.0"
                 }
             },
             "5.1.6": {
@@ -4189,7 +4189,7 @@
                 },
                 "require": {
                     "pivvenit/acf-pro-installer": "^2",
-                    "composer/installers": "~1.0"
+                    "composer/installers": "^1.0 || ^2.0"
                 }
             },
             "5.1.5": {
@@ -4222,7 +4222,7 @@
                 },
                 "require": {
                     "pivvenit/acf-pro-installer": "^2",
-                    "composer/installers": "~1.0"
+                    "composer/installers": "^1.0 || ^2.0"
                 }
             },
             "5.1.4": {
@@ -4255,7 +4255,7 @@
                 },
                 "require": {
                     "pivvenit/acf-pro-installer": "^2",
-                    "composer/installers": "~1.0"
+                    "composer/installers": "^1.0 || ^2.0"
                 }
             },
             "5.1.3": {
@@ -4288,7 +4288,7 @@
                 },
                 "require": {
                     "pivvenit/acf-pro-installer": "^2",
-                    "composer/installers": "~1.0"
+                    "composer/installers": "^1.0 || ^2.0"
                 }
             },
             "5.1.2": {
@@ -4321,7 +4321,7 @@
                 },
                 "require": {
                     "pivvenit/acf-pro-installer": "^2",
-                    "composer/installers": "~1.0"
+                    "composer/installers": "^1.0 || ^2.0"
                 }
             },
             "5.1.1": {
@@ -4354,7 +4354,7 @@
                 },
                 "require": {
                     "pivvenit/acf-pro-installer": "^2",
-                    "composer/installers": "~1.0"
+                    "composer/installers": "^1.0 || ^2.0"
                 }
             },
             "5.1.0": {
@@ -4387,7 +4387,7 @@
                 },
                 "require": {
                     "pivvenit/acf-pro-installer": "^2",
-                    "composer/installers": "~1.0"
+                    "composer/installers": "^1.0 || ^2.0"
                 }
             },
             "5.0.9": {
@@ -4420,7 +4420,7 @@
                 },
                 "require": {
                     "pivvenit/acf-pro-installer": "^2",
-                    "composer/installers": "~1.0"
+                    "composer/installers": "^1.0 || ^2.0"
                 }
             },
             "5.0.8": {
@@ -4453,7 +4453,7 @@
                 },
                 "require": {
                     "pivvenit/acf-pro-installer": "^2",
-                    "composer/installers": "~1.0"
+                    "composer/installers": "^1.0 || ^2.0"
                 }
             },
             "5.0.7": {
@@ -4486,7 +4486,7 @@
                 },
                 "require": {
                     "pivvenit/acf-pro-installer": "^2",
-                    "composer/installers": "~1.0"
+                    "composer/installers": "^1.0 || ^2.0"
                 }
             },
             "5.0.6": {
@@ -4519,7 +4519,7 @@
                 },
                 "require": {
                     "pivvenit/acf-pro-installer": "^2",
-                    "composer/installers": "~1.0"
+                    "composer/installers": "^1.0 || ^2.0"
                 }
             },
             "5.0.5": {
@@ -4552,7 +4552,7 @@
                 },
                 "require": {
                     "pivvenit/acf-pro-installer": "^2",
-                    "composer/installers": "~1.0"
+                    "composer/installers": "^1.0 || ^2.0"
                 }
             },
             "5.0.4": {
@@ -4585,7 +4585,7 @@
                 },
                 "require": {
                     "pivvenit/acf-pro-installer": "^2",
-                    "composer/installers": "~1.0"
+                    "composer/installers": "^1.0 || ^2.0"
                 }
             },
             "5.0.3": {
@@ -4618,7 +4618,7 @@
                 },
                 "require": {
                     "pivvenit/acf-pro-installer": "^2",
-                    "composer/installers": "~1.0"
+                    "composer/installers": "^1.0 || ^2.0"
                 }
             },
             "5.0.2": {
@@ -4651,7 +4651,7 @@
                 },
                 "require": {
                     "pivvenit/acf-pro-installer": "^2",
-                    "composer/installers": "~1.0"
+                    "composer/installers": "^1.0 || ^2.0"
                 }
             },
             "5.0.1": {
@@ -4684,7 +4684,7 @@
                 },
                 "require": {
                     "pivvenit/acf-pro-installer": "^2",
-                    "composer/installers": "~1.0"
+                    "composer/installers": "^1.0 || ^2.0"
                 }
             },
             "5.0.0": {
@@ -4717,7 +4717,7 @@
                 },
                 "require": {
                     "pivvenit/acf-pro-installer": "^2",
-                    "composer/installers": "~1.0"
+                    "composer/installers": "^1.0 || ^2.0"
                 }
             }
         }
