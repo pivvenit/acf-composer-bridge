@@ -14,7 +14,7 @@ function createPackage($tag, $alias = null, $type = "wpackagist-plugin", $repoVe
         "pivvenit/acf-pro-installer" => getInstallerVersion($tag)
     ];
     if ($repoVersion == 3) {
-        $dependencies["composer/installers"] ="~1.0";
+        $dependencies["composer/installers"] ="^1.0 || ^2.0";
     }
     $downloadurl = getDownloadUrl($tag);
     return [
