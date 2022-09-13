@@ -5,9 +5,8 @@
 This repository acts as a bridge to use the excellent [Advanced Custom Fields Pro](https://www.advancedcustomfields.com/pro/)
 Wordpress plugin together with [Composer](https://getcomposer.org)/[Bedrock](https://roots.io/bedrock/).
 
-## :warning: Native Dependabot warning :warning: ##
-Dependabot Preview will be shut down on August 3rd, 2021 and will be replaced by the new Dependabot integration.
-However, this new integration does not support environment variables that are used by [our acf-pro-installer](https://github.com/pivvenit/acf-pro-installer).
+## :warning: Dependabot warning :warning: ##
+Dependabot does not support environment variables that are used by [our acf-pro-installer](https://github.com/pivvenit/acf-pro-installer).
 
 We have created a (temporary) workaround for this use case: https://github.com/pivvenit/acf-pro-installer/issues/222#issuecomment-890359373.
 To summarise, we've published an authenticated Composer repository that uses the licensekey you provide via Basic authentication to download the file from ACF's server.
