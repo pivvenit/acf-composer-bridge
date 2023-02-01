@@ -1,4 +1,6 @@
 {
+    "warning": "Advanced Custom fields has added native composer support, see https://www.advancedcustomfields.com/resources/installing-acf-pro-with-composer/.\nThis repository will be shut down permanently on 1st of june 2023.",
+    "warning-versions": ">=0.0.0",
     "packages": {
         "advanced-custom-fields/advanced-custom-fields-pro": {
             "dev-master": {
