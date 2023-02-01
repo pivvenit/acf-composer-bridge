@@ -1,20 +1,21 @@
 <?php
 
-set_error_handler(function ($errno, $errstr, $errfile, $errline ) {
+set_error_handler(function ($errno, $errstr, $errfile, $errline) {
     throw new ErrorException($errstr, 0, $errno, $errfile, $errline);
 });
 
 const INSTALLER_VERSION = "2";
-$repoVersions = [2,3];
+$repoVersions = [2, 3];
 
 $types = ["wpackagist-plugin", "wordpress-plugin", "wpackagist-muplugin", "wordpress-muplugin", "library"];
 
-function createPackage($tag, $alias = null, $type = "wpackagist-plugin", $repoVersion = 2) {
+function createPackage($tag, $alias = null, $type = "wpackagist-plugin", $repoVersion = 2)
+{
     $dependencies = [
         "pivvenit/acf-pro-installer" => getInstallerVersion($tag)
     ];
     if ($repoVersion == 3) {
-        $dependencies["composer/installers"] ="^1.0 || ^2.0";
+        $dependencies["composer/installers"] = "^1.0 || ^2.0";
     }
     $downloadurl = getDownloadUrl($tag);
     return [
@@ -114,6 +115,8 @@ foreach ($repoVersions as $repoVersion) {
             echo "The list of packages is empty, probably the API has changed, not updating repository";
             die(1);
         }
+        $data['warning'] = "Advanced Custom fields has added native composer support, see https://www.advancedcustomfields.com/resources/installing-acf-pro-with-composer/." . PHP_EOL . "This repository will be shut down permanently on 1st of june 2023.";
+        $data["warning-versions"] = ">=0.0.0";
         $data['packages'] = (object)[
             "advanced-custom-fields/advanced-custom-fields-pro" => (object)$versions
         ];
