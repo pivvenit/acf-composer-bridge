@@ -5,12 +5,11 @@
 This repository acts as a bridge to use the excellent [Advanced Custom Fields Pro](https://www.advancedcustomfields.com/pro/)
 Wordpress plugin together with [Composer](https://getcomposer.org)/[Bedrock](https://roots.io/bedrock/).
 
-## :warning: Dependabot warning :warning: ##
-Dependabot does not support environment variables that are used by [our acf-pro-installer](https://github.com/pivvenit/acf-pro-installer).
+## :warning: Repository shutting down on 1st of June 2023 :warning: ##
 
-We have created a (temporary) workaround for this use case: https://github.com/pivvenit/acf-pro-installer/issues/222#issuecomment-890359373.
-To summarise, we've published an authenticated Composer repository that uses the licensekey you provide via Basic authentication to download the file from ACF's server.
-The status of this workaround will be updated in the issue mentioned above.
+Since Advanced Custom Fields has [released native support for Composer](https://www.advancedcustomfields.com/resources/installing-acf-pro-with-composer/) :tada: this repository is deprecated. We actively encourage users to switch to their solution. This repository (and our installer) is maintained till the 1st of June 2023 to provide a transition period. Afterwards we will **permanently shut the repository down**.
+
+Finally, we would like to thank you all for your support! 
 
 ## Breaking change between v2 and V3 ##
 As `composer/installers` is added to the dependencies of all provided packages, the default installation folder is changed.
